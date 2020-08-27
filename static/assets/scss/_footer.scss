@@ -1,0 +1,12 @@
+.footer{
+  @include clearfix;
+  padding: 80px 30px 45px;
+  @include res('>', 768) {
+    padding: 144px 56px 66px;
+    margin: 0 auto;
+    max-width: 1088px;
+  }
+  small{
+    font-size: 11px;
+  }
+}

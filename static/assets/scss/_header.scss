@@ -1,0 +1,26 @@
+.header{
+  padding: 64px 0 40px;
+  @include res('>', 768) {
+    padding: 130px 0 90px;
+  }
+  .logo{
+    margin: 0;
+    a{
+      margin: 0 auto;
+      display: block;
+      width: 104.5px;
+      height: 96px;
+      background: url(../img/mk-logo.svg) no-repeat left top;
+      background-size: 104.5px 90.612px;
+      @include res('>', 768) {
+        margin: 0 auto;
+        width: 272px;
+        height: 236px;
+        background-size: 272px 236px;
+      }
+    }
+    span{
+      display: none;
+    }
+  }
+}
