@@ -8,10 +8,10 @@
     a{
       margin: 0 auto;
       display: block;
-      width: 104.5px;
-      height: 96px;
+      width: 128px;
+      height: 111px;
       background: url(../img/mk-logo.svg) no-repeat left top;
-      background-size: 104.5px 90.612px;
+      background-size: 128px 111px;
       @include res('>', 768) {
         margin: 0 auto;
         width: 272px;

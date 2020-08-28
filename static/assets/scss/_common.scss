@@ -114,7 +114,7 @@ dl{
 }
 
 figure{
-  margin: 0 23px;
+  margin: 0 30px;
   padding: 0;
   @include res('>', 768) {
     margin: 0;
@@ -344,7 +344,7 @@ section{
     }
   }
   figure{
-    margin: 0 30px 16px;
+    margin-bottom: 16px;
     @include res('>', 768) {
       margin: 0 4px;
     }
