@@ -150,6 +150,7 @@ section{
 
 .al-justify{
   text-align: justify;
+  text-justify: inter-ideograph;
 }
 
 .al-left{
@@ -174,6 +175,7 @@ section{
     margin: 0 auto;
     max-width: 1088px;
     padding: 0 56px;
+    max-width: 100%;
   }
 }
 
@@ -335,7 +337,12 @@ section{
   margin: 80px 0;
   @include res('>', 768) {
     margin: 80px -4px;
-    display: flex;
+    display: table;
+  }
+  .flexBox-col{
+    @include res('>', 768) {
+      display: table-cell;
+    }
   }
   figure{
     margin: 0 30px 16px;
