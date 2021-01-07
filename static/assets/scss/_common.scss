@@ -462,10 +462,12 @@ dl{
   .sectionTitle-jp{
     font-size: 24px;
     line-height: 32px;
+    @include ff_jp_bold;
   }
   .sectionTitle-en{
     font-size: 12px;
     line-height: 32px;
+    @include ff_en_bold;
   }
 }
 
@@ -501,7 +503,7 @@ dl{
   }
   .profileTitle-en{
     font-size: 14px;
-    font-weight: 500;
+    @include ff_en_bold;
   }
   &:last-child{
     margin-top: 46px;
