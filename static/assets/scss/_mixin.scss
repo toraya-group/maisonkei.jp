@@ -60,8 +60,18 @@
 }
 
 @mixin ff_default {
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'EB Garamond', 'YuMincho', serif;
   font-weight: 400;
+}
+
+@mixin ff_jp {
+  font-family: 'YuMincho', serif;
+  font-weight: 500;
+}
+
+@mixin ff_jp_bold {
+  font-family: 'YuMincho Demibold', serif;
+  font-weight: normal;
 }
 
 @mixin ff_en {
@@ -71,7 +81,7 @@
 
 @mixin ff_en_bold {
   font-family: 'EB Garamond', serif;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 @mixin fs_h2 {
@@ -100,5 +110,5 @@
 
 @mixin fs_caption {
   font-size: 12px;
-  line-height: 24px;
+  line-height: 21px;
 }

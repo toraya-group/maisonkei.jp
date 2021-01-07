@@ -1,22 +1,22 @@
 .header{
-  padding: 64px 0 40px;
+  padding: 48px 0 36px;
   @include res('>', 768) {
-    padding: 130px 0 90px;
+    padding: 128px 0 56px;
   }
   .logo{
     margin: 0;
     a{
       margin: 0 auto;
       display: block;
-      width: 128px;
-      height: 111px;
+      width: 96px;
+      height: 101px;
       background: url(../img/mk-logo.svg) no-repeat left top;
-      background-size: 128px 111px;
+      background-size: 96px 101px;
       @include res('>', 768) {
         margin: 0 auto;
-        width: 272px;
-        height: 236px;
-        background-size: 272px 236px;
+        width: 236px;
+        height: 224px;
+        background-size: 236px 224px;
       }
     }
     span{
