@@ -161,6 +161,24 @@ section{
   text-align: right;
 }
 
+.pc-al-left{
+  @include res('>', 768) {
+    text-align: left;
+  }
+}
+
+.pc-al-center{
+  @include res('>', 768) {
+    text-align: center;
+  }
+}
+
+.pc-al-right{
+  @include res('>', 768) {
+    text-align: right;
+  }
+}
+
 .img-full{
   @include img_full;
 }
@@ -197,6 +215,11 @@ section{
     font-size: 19px;
     line-height: 42px;
   }
+}
+
+.lead-caption{
+  @include fs_caption;
+  margin-top: 20px;
 }
 
 .title-img{
@@ -251,7 +274,7 @@ dl{
       width: 23.5%;
     }
     h2{
-      margin-bottom: 43px;
+      margin-bottom: 30px;
       @include fs_caption;
       @include res('>', 768) {
         font-size: 14px;
@@ -260,7 +283,10 @@ dl{
         margin-bottom: 30px;
       }
       &.title-food{
-        margin-bottom: 12px;
+        margin-bottom: 30px;
+      }
+      &.title-map{
+        margin-bottom: 30px;
       }
     }
   }
@@ -276,7 +302,7 @@ dl{
 
 // module
 .btn-wrap{
-  margin-top: 43px;
+  margin-top: 55px;
   @include res('>', 768) {
     margin: 80px auto 0;
     max-width: 640px;
@@ -292,8 +318,8 @@ dl{
   line-height: 1.1em;
   color: $color-white;
   text-decoration: none;
-  cursor: pointer;
-  @include ff_jp;
+  //cursor: pointer;
+  //@include ff_jp;
   &:hover{
     color: $color-white;
   }
@@ -354,6 +380,11 @@ dl{
       position: absolute;
       top: 25px;
       right: 24px;
+    }
+  }
+  &.arrow-non{
+    &::after{
+      background: none;
     }
   }
 }
@@ -447,7 +478,7 @@ dl{
 }
 
 .cover{
-  margin-bottom: 36px;
+  margin-bottom: 18px;
   @include res('>', 768) {
     margin-bottom: 36px;
   }
@@ -458,30 +489,42 @@ dl{
   .sectionTitle-jp,
   .sectionTitle-en{
     display: block;
+    @include ff_en_bold;
   }
   .sectionTitle-jp{
     font-size: 24px;
     line-height: 32px;
+    letter-spacing: 3px;
     @include ff_jp_bold;
   }
   .sectionTitle-en{
     font-size: 12px;
     line-height: 32px;
+    letter-spacing: 1px;
     @include ff_en_bold;
   }
 }
 
 .profile-cover{
-  margin-bottom: 46px;
+  margin-bottom: 40px;
   @include res('>', 768) {
     margin-bottom: 50px;
   }
 }
 
 .food-cover{
-  margin-bottom: 46px;
+  margin-bottom: 40px;
   @include res('>', 768) {
-    margin: 0 -35px 50px;
+    margin: 0 0 50px;
+  }
+  &.ng-margin{
+    margin-top: 30px;
+    margin-bottom: 0;
+    @include res('>', 768) {
+      margin-top: 66px;
+      margin-left: -35px;
+      margin-right: -35px;
+    } 
   }
 }
 
@@ -516,4 +559,27 @@ dl{
 .food-title{
   font-size: 20px;
   line-height: 32px;
+}
+
+.open-title{
+  margin-bottom: 42px;
+  text-align: center;
+  .openTitle-date,
+  .openTitle-txt{
+    display: block;
+  }
+  .openTitle-date{
+    @include res('>', 768) {
+      font-size: 24px;
+      line-height: 38px;
+    }
+  }
+  .openTitle-txt{
+    font-size: 36.67px;
+    letter-spacing: 3px;
+    @include res('>', 768) {
+      font-size: 55px;
+      line-height: 83.56px;
+    }
+  }
 }
