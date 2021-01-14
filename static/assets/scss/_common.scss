@@ -496,6 +496,9 @@ dl{
     line-height: 32px;
     letter-spacing: 3px;
     @include ff_jp_bold;
+    &.ng-margin-left{
+      margin-left: -2px;
+    }
   }
   .sectionTitle-en{
     font-size: 12px;
@@ -569,9 +572,15 @@ dl{
     display: block;
   }
   .openTitle-date{
+    font-size: 21px;
     @include res('>', 768) {
-      font-size: 24px;
-      line-height: 38px;
+      font-size: 36px;
+    }
+    .fs-jp{
+      font-size: 18px;
+      @include res('>', 768) {
+        font-size: 30px;
+      }
     }
   }
   .openTitle-txt{
