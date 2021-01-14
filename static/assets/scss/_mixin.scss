@@ -60,12 +60,12 @@
 }
 
 @mixin ff_default {
-  font-family: 'EB Garamond', 'Yu Mincho', '游明朝体', serif;
+  font-family: 'EB Garamond', 'Yu Mincho StdN', '游明朝体 StdN', serif;
   font-weight: 400;
 }
 
 @mixin ff_jp {
-  font-family: 'Yu Mincho', '游明朝体', serif;
+  font-family: 'Yu Mincho StdN', '游明朝体 StdN', serif;
   font-weight: 500;
 }
 
