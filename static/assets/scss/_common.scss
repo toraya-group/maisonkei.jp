@@ -310,7 +310,7 @@ dl{
 }
 
 .btn{
-  padding: 0 0 10px;
+  padding: 0;
   display: block;
   position: relative;
   background-color: #000;
@@ -318,28 +318,20 @@ dl{
   line-height: 1.1em;
   color: $color-white;
   text-decoration: none;
-  cursor: pointer;
   @include ff_jp;
   &:hover{
     color: $color-white;
   }
   .btn-inner{
-    padding: 22px 24px 12px;
+    padding: 22px 24px;
     display: block;
-  }
-  .btn-arrow{
-    content: "";
-    display: block;
-    width: 18px;
-    height: 10px;
-    background: url(../img/mk-btn-arrow-down.svg) no-repeat left center;
+    background: url(../img/mk-btn-arrow-down.svg) no-repeat;
     background-size: 18px 10px;
-    position: absolute;
-    top: 25px;
-    right: 24px;
+    background-position: right 24px top 24px;
+    cursor: pointer;
   }
   .btn-hide{
-    margin-bottom: 10px;
+    padding-bottom: 22px;
     color: $color-white;
     display: none;
     @include ff_en;
@@ -382,16 +374,12 @@ dl{
     }
   }
   &.open{
-    .btn-arrow{
-      content: "";
+    .btn-inner{
+      padding: 22px 24px;
       display: block;
-      width: 18px;
-      height: 10px;
-      background: url(../img/mk-btn-arrow-up.svg) no-repeat left center;
+      background: url(../img/mk-btn-arrow-up.svg) no-repeat;
       background-size: 18px 10px;
-      position: absolute;
-      top: 25px;
-      right: 24px;
+      background-position: right 24px top 24px;
     }
   }
   &.arrow-non{

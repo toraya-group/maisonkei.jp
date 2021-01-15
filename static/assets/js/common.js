@@ -56,9 +56,4 @@ $(function(){
     $(this).parent().toggleClass('open');
     $(this).next('.btn-hide').slideToggle(300);
   });
-
-  $('.btn-arrow').click(function () {
-    $('.btn').removeClass('open');
-    $('.btn-hide').slideUp(300);
-  });
 });
