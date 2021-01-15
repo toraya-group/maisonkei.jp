@@ -310,7 +310,7 @@ dl{
 }
 
 .btn{
-  padding: 24px 24px 22px;
+  padding: 0 0 10px;
   display: block;
   position: relative;
   background-color: #000;
@@ -318,12 +318,16 @@ dl{
   line-height: 1.1em;
   color: $color-white;
   text-decoration: none;
-  //cursor: pointer;
-  //@include ff_jp;
+  cursor: pointer;
+  @include ff_jp;
   &:hover{
     color: $color-white;
   }
-  &::after{
+  .btn-inner{
+    padding: 22px 24px 12px;
+    display: block;
+  }
+  .btn-arrow{
     content: "";
     display: block;
     width: 18px;
@@ -335,17 +339,25 @@ dl{
     right: 24px;
   }
   .btn-hide{
+    margin-bottom: 10px;
     color: $color-white;
-    margin-top: 12px;
     display: none;
     @include ff_en;
     font-weight: normal;
+    p{
+      margin-top: 0;
+      @include fs_caption;
+      &.__mt{
+        margin-top: 15px;
+      }
+    }
     dl{
       margin: 0 auto;
       display: table;
       dt,
       dd{
         display: table-cell;
+        letter-spacing: 1px;
       }
       dt{
         font-size: 12px;
@@ -370,7 +382,7 @@ dl{
     }
   }
   &.open{
-    &::after{
+    .btn-arrow{
       content: "";
       display: block;
       width: 18px;
