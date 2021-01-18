@@ -310,7 +310,7 @@ dl{
 }
 
 .btn{
-  padding: 24px 24px 22px;
+  padding: 0;
   display: block;
   position: relative;
   background-color: #000;
@@ -318,34 +318,38 @@ dl{
   line-height: 1.1em;
   color: $color-white;
   text-decoration: none;
-  //cursor: pointer;
-  //@include ff_jp;
+  @include ff_jp;
   &:hover{
     color: $color-white;
   }
-  &::after{
-    content: "";
+  .btn-inner{
+    padding: 22px 24px;
     display: block;
-    width: 18px;
-    height: 10px;
-    background: url(../img/mk-btn-arrow-down.svg) no-repeat left center;
+    background: url(../img/mk-btn-arrow-down.svg) no-repeat;
     background-size: 18px 10px;
-    position: absolute;
-    top: 25px;
-    right: 24px;
+    background-position: right 24px top 24px;
+    cursor: pointer;
   }
   .btn-hide{
+    padding-bottom: 22px;
     color: $color-white;
-    margin-top: 12px;
     display: none;
-    @include ff_en;
-    font-weight: normal;
-    dl{
+    p{
+      margin-top: 0;
+      @include fs_caption;
+      &.__mt{
+        margin-top: 15px;
+      }
+    }
+    .tel{
       margin: 0 auto;
       display: table;
+      @include ff_en;
+      font-weight: normal;
       dt,
       dd{
         display: table-cell;
+        letter-spacing: 1px;
       }
       dt{
         font-size: 12px;
@@ -368,18 +372,31 @@ dl{
         }
       }
     }
+    .caution{
+      margin: 30px 7% 0;
+      @include res('>', 768) {
+        margin: 30px 14% 0;
+      }
+      dl{
+        margin: 12px 0 0;
+        text-align: left;
+        @include fs_caption;
+        display: table;
+        dt,
+        dd{
+          display: table-cell;
+          vertical-align: top;
+        }
+      }
+    }
   }
   &.open{
-    &::after{
-      content: "";
+    .btn-inner{
+      padding: 22px 24px;
       display: block;
-      width: 18px;
-      height: 10px;
-      background: url(../img/mk-btn-arrow-up.svg) no-repeat left center;
+      background: url(../img/mk-btn-arrow-up.svg) no-repeat;
       background-size: 18px 10px;
-      position: absolute;
-      top: 25px;
-      right: 24px;
+      background-position: right 24px top 24px;
     }
   }
   &.arrow-non{
