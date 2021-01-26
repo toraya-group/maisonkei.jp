@@ -184,7 +184,7 @@ section{
 }
 
 .inner{
-  padding: 0 32px;
+  padding: 0 30px;
   @include res('>', 768) {
     margin: 0 auto;
     max-width: 1090px;
@@ -399,6 +399,15 @@ dl{
       background-position: right 24px top 24px;
     }
   }
+  &.ar-right{
+    .btn-inner{
+      padding: 22px 24px;
+      display: block;
+      background: url(../img/mk-btn-arrow-right.svg) no-repeat;
+      background-size:  11.199px 14.84px;
+      background-position: right 24px top 22px;
+    }
+  }
   &.arrow-non{
     &::after{
       background: none;
@@ -607,6 +616,36 @@ dl{
     @include res('>', 768) {
       font-size: 55px;
       line-height: 83.56px;
+    }
+  }
+}
+
+.recruit{
+  margin: 0 -20px;
+  padding: 30px 16px 18px;
+  background-color: #EBEBEB;
+  @include res('>', 768) {
+    margin: 0;
+    padding-bottom: 58px;
+  }
+  h2,
+  p{
+    text-align: center;
+  }
+  h2{
+    margin-bottom: 0;
+  }
+  p{
+    margin-top: 15px;
+  }
+  .btn-wrap{
+    margin-top: 20px;
+    .btn{
+      background-color: #B18E6E;
+      @include res('>', 768) {
+        margin: 0 auto;
+        max-width: 375px;
+      }
     }
   }
 }
