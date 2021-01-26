@@ -642,6 +642,10 @@ dl{
     margin-top: 20px;
     .btn{
       background-color: #B18E6E;
+      @include res('>', 768) {
+        margin: 0 auto;
+        max-width: 375px;
+      }
     }
   }
 }
