@@ -1,0 +1,21 @@
+{
+  "entry": "server.js",
+  "files": {
+    "pages/errors/404.js": "pages/errors/404.js",
+    "pages/index.js": "pages/index.js",
+    "pages/news/202101/30/index.js": "pages/news/202101/30/index.js",
+    "pages/news/202101/index.js": "pages/news/202101/index.js",
+    "pages/news/index.js": "pages/news/index.js",
+    "pages/profile/index.js": "pages/profile/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "pages/errors/404.js": "pages/errors/404.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/news/202101/30/index.js": "pages/news/202101/30/index.js.map",
+    "pages/news/202101/index.js": "pages/news/202101/index.js.map",
+    "pages/news/index.js": "pages/news/index.js.map",
+    "pages/profile/index.js": "pages/profile/index.js.map",
+    "server.js": "server.js.map"
+  }
+}

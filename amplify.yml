@@ -2,12 +2,10 @@ version: 1
 frontend:
   phases:
     preBuild:
-      commands:
-        - cd static
-        - yarn install
+      commands: []
+
     build:
-      commands:
-        - yarn run build
+      commands: []
   artifacts:
     baseDirectory: /static/dist
     files:

@@ -4,12 +4,12 @@ import { normalizeURL, decode } from '@nuxt/ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _3f43d1c7 = () => interopDefault(import('../pages/news/index.vue' /* webpackChunkName: "pages/news/index" */))
-const _b979596a = () => interopDefault(import('../pages/profile/index.vue' /* webpackChunkName: "pages/profile/index" */))
-const _5d968676 = () => interopDefault(import('../pages/errors/404.vue' /* webpackChunkName: "pages/errors/404" */))
-const _50a8bf5c = () => interopDefault(import('../pages/news/202101/index.vue' /* webpackChunkName: "pages/news/202101/index" */))
-const _712b4306 = () => interopDefault(import('../pages/news/202101/30/index.vue' /* webpackChunkName: "pages/news/202101/30/index" */))
-const _d388099e = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _64231ee5 = () => interopDefault(import('../pages/news/index.vue' /* webpackChunkName: "pages/news/index" */))
+const _fddaed26 = () => interopDefault(import('../pages/profile/index.vue' /* webpackChunkName: "pages/profile/index" */))
+const _13d7ec3a = () => interopDefault(import('../pages/errors/404.vue' /* webpackChunkName: "pages/errors/404" */))
+const _ac67d704 = () => interopDefault(import('../pages/news/202101/index.vue' /* webpackChunkName: "pages/news/202101/index" */))
+const _f0497ab8 = () => interopDefault(import('../pages/news/202101/30/index.vue' /* webpackChunkName: "pages/news/202101/30/index" */))
+const _5eec7353 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -29,31 +29,31 @@ export const routerOptions = {
 
   routes: [{
     path: "/news",
-    component: _3f43d1c7,
+    component: _64231ee5,
     name: "news"
   }, {
     path: "/profile",
-    component: _b979596a,
+    component: _fddaed26,
     name: "profile"
   }, {
     path: "/errors/404",
-    component: _5d968676,
+    component: _13d7ec3a,
     name: "errors-404"
   }, {
     path: "/news/202101",
-    component: _50a8bf5c,
+    component: _ac67d704,
     name: "news-202101"
   }, {
     path: "/news/202101/30",
-    component: _712b4306,
+    component: _f0497ab8,
     name: "news-202101-30"
   }, {
     path: "/",
-    component: _d388099e,
+    component: _5eec7353,
     name: "index"
   }, {
     path: "*",
-    component: _5d968676,
+    component: _13d7ec3a,
     name: "custom"
   }],
 

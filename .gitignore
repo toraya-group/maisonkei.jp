@@ -1,5 +1,5 @@
 .sass-cache
 .DS_Store
 .cache
-static/dist
-static/.nuxt/dist
+# static/dist
+# static/.nuxt/dist
