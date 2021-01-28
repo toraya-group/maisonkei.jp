@@ -335,7 +335,6 @@
     }
   }
   .pageNav-prev{
-    text-align: right;
     @include res('>', 768) {
       text-align: right;
     }
