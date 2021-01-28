@@ -6,6 +6,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _acec8392 = () => interopDefault(import('../pages/news/index.vue' /* webpackChunkName: "pages/news/index" */))
 const _7b4e5e4a = () => interopDefault(import('../pages/profile/index.vue' /* webpackChunkName: "pages/profile/index" */))
+const _3b7aa935 = () => interopDefault(import('../pages/errors/404.vue' /* webpackChunkName: "pages/errors/404" */))
 const _72b61628 = () => interopDefault(import('../pages/news/202101/index.vue' /* webpackChunkName: "pages/news/202101/index" */))
 const _fbef3914 = () => interopDefault(import('../pages/news/202101/30/index.vue' /* webpackChunkName: "pages/news/202101/30/index" */))
 const _093008c1 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
@@ -35,6 +36,10 @@ export const routerOptions = {
     component: _7b4e5e4a,
     name: "profile"
   }, {
+    path: "/errors/404",
+    component: _3b7aa935,
+    name: "errors-404"
+  }, {
     path: "/news/202101",
     component: _72b61628,
     name: "news-202101"
@@ -46,6 +51,10 @@ export const routerOptions = {
     path: "/",
     component: _093008c1,
     name: "index"
+  }, {
+    path: "*",
+    component: _3b7aa935,
+    name: "custom"
   }],
 
   fallback: false
