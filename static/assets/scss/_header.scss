@@ -257,8 +257,12 @@
         position: absolute;
         top: 0;
         right: 0;
+        width: 288px;
       }
       &.__active{
+        @include res('>', 1150) {
+          width: 360px;
+        }
         .headerNavInner-reservation{
           @include res('>', 1150) {
             width: 360px;
