@@ -1,0 +1,32 @@
+[
+  {
+    "name": "news",
+    "path": "/news",
+    "component": "/Users/fuji/work/saito/maisonkei/static/nuxt/pages/news/index.vue",
+    "chunkName": "pages/news/index"
+  },
+  {
+    "name": "profile",
+    "path": "/profile",
+    "component": "/Users/fuji/work/saito/maisonkei/static/nuxt/pages/profile/index.vue",
+    "chunkName": "pages/profile/index"
+  },
+  {
+    "name": "news-202101",
+    "path": "/news/202101",
+    "component": "/Users/fuji/work/saito/maisonkei/static/nuxt/pages/news/202101/index.vue",
+    "chunkName": "pages/news/202101/index"
+  },
+  {
+    "name": "news-202101-30",
+    "path": "/news/202101/30",
+    "component": "/Users/fuji/work/saito/maisonkei/static/nuxt/pages/news/202101/30/index.vue",
+    "chunkName": "pages/news/202101/30/index"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/fuji/work/saito/maisonkei/static/nuxt/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "Contents": {
+    "description": "Auto imported from /components/Contents.vue"
+  },
+  "LazyContents": {
+    "description": "Auto imported from /components/Contents.vue"
+  },
+  "ContentsHeader": {
+    "description": "Auto imported from /components/ContentsHeader.vue"
+  },
+  "LazyContentsHeader": {
+    "description": "Auto imported from /components/ContentsHeader.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from /components/Footer.vue"
+  },
+  "LazyFooter": {
+    "description": "Auto imported from /components/Footer.vue"
+  },
+  "Header": {
+    "description": "Auto imported from /components/Header.vue"
+  },
+  "LazyHeader": {
+    "description": "Auto imported from /components/Header.vue"
+  },
+  "HeaderNav": {
+    "description": "Auto imported from /components/HeaderNav.vue"
+  },
+  "LazyHeaderNav": {
+    "description": "Auto imported from /components/HeaderNav.vue"
+  },
+  "HeaderReservation": {
+    "description": "Auto imported from /components/HeaderReservation.vue"
+  },
+  "LazyHeaderReservation": {
+    "description": "Auto imported from /components/HeaderReservation.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from /components/Logo.vue"
+  },
+  "LazyLogo": {
+    "description": "Auto imported from /components/Logo.vue"
+  },
+  "NewsArchiveNav": {
+    "description": "Auto imported from /components/NewsArchiveNav.vue"
+  },
+  "LazyNewsArchiveNav": {
+    "description": "Auto imported from /components/NewsArchiveNav.vue"
+  },
+  "NewsCategoryNav": {
+    "description": "Auto imported from /components/NewsCategoryNav.vue"
+  },
+  "LazyNewsCategoryNav": {
+    "description": "Auto imported from /components/NewsCategoryNav.vue"
+  },
+  "NewsLoadBtn": {
+    "description": "Auto imported from /components/NewsLoadBtn.vue"
+  },
+  "LazyNewsLoadBtn": {
+    "description": "Auto imported from /components/NewsLoadBtn.vue"
+  }
+}

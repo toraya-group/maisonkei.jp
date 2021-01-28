@@ -1,0 +1,330 @@
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  @include ff_default;
+  @include fs_body;
+  color: $txt-color-black;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  &:focus {
+  }
+  &:link{
+  }
+  &:visited{
+  }
+  &:hover, &:active {
+    text-decoration: none;
+    @include opacity(.7);
+    @include res('<', 768) {
+      @include opacity(1);
+    }
+  }
+  &.ho{
+    text-decoration: none;
+    &:hover{
+      @include opacity(.7);
+    }
+  }
+  &.block{
+    display: block;
+  }
+  &.link-unerline{
+    border-bottom: solid 1px $border-color-gray;
+    padding-bottom: 3px;
+    color: $txt-color-gray;
+    &:hover{
+      border-bottom: none;
+    }
+  }
+  img {
+    border: 0;
+  }
+  &[href^="tel:"]{
+    @include res('>', 768) {
+      text-decoration: none;
+      pointer-events: none;
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+  font-weight: 500;
+}
+
+h2,
+.fs_h2{
+  @include fs_h2;
+  margin-bottom: 20px;
+  @include res('>', 768) {
+    margin-bottom: 10px;
+  }
+}
+
+h3,
+.fs_h3{
+  @include fs_h3;
+  margin-bottom: 20px;
+}
+
+h4,
+.fs_h4{
+  @include fs_h4;
+}
+
+.jp-serif{
+  @include ff_jp;
+}
+
+.jp-sans-serif{
+  @include ff_jp_sans-serif;
+}
+
+.en-serif{
+  @include ff_en;
+}
+
+.caption{
+  @include fs_caption;
+}
+
+p{
+  margin-top: 30px;
+  &.__mt-none{
+    margin-top: 0;
+  }
+  &.__pc-mt-none{
+    @include res('>', 768) {
+      margin-top: 0;
+    }
+  }
+  &.__mt-adj{
+    @include res('>', 768) {
+      margin-top: -9px;
+    }
+  }
+}
+
+ul,
+ol{
+  margin-left: 1.5em;
+}
+
+dl{
+  margin-top: 0;
+}
+
+figure{
+  margin: 0;
+  padding: 0;
+  img{
+    @include img-full;
+    vertical-align: bottom;
+  }
+  &.side-margin{
+    @include res('>', 768) {
+      margin-right: 50px;
+      margin-left: 50px;
+    }
+  }
+}
+
+.pc{
+  display: none;
+  @include res('>', 768) {
+    display: block;
+  }
+}
+
+.sp{
+  display: block;
+  @include res('>', 768) {
+    display: none;
+  }
+}
+
+.al-justify{
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+.al-left{
+  text-align: left;
+}
+
+.al-center{
+  text-align: center;
+}
+
+.al-right{
+  text-align: right;
+}
+
+.pc-al-left{
+  @include res('>', 768) {
+    text-align: left;
+  }
+}
+
+.pc-al-center{
+  @include res('>', 768) {
+    text-align: center;
+  }
+}
+
+.pc-al-right{
+  @include res('>', 768) {
+    text-align: right;
+  }
+}
+
+.img-full{
+  @include img_full;
+}
+
+.link-external{
+  margin-top: 18px;
+  font-size: 15px;
+  a{
+    border-bottom: 1px solid #000;
+    &:hover{
+      border-bottom: none;
+    }
+  }
+}
+
+.lead{
+  font-size: 15px;
+  line-height: 32px;
+  @include res('>', 768) {
+    text-align: center;
+    font-size: 18px;
+    line-height: 38px;
+  }
+  @include res('>', 1600) {
+    font-size: 19px;
+    line-height: 42px;
+  }
+}
+
+.lead-caption{
+  @include fs_caption;
+  margin-top: 20px;
+}
+
+.title-img{
+  margin-bottom: 8px;
+  display: block;
+  @include res('>', 768) {
+    margin-bottom: 18px;
+  }
+  &.story{
+    width: 70px;
+    height: 22px;
+  }
+  &.profile{
+    width: 136px;
+    height: 21px;
+  }
+}
+
+dl{
+  &.dl-table{
+    margin-bottom: 33px;
+    display: table;
+    dt,
+    dd{
+      display: table-cell;
+      vertical-align: top;
+    }
+    dt{
+      width: 74px;
+    }
+  }
+}
+
+
+// grid
+.grid2{
+  margin: 0;
+  padding: 0;
+  @include res('>', 768) {
+    display: table;
+    width: 100%;
+  }
+  .grid2-side,
+  .grid2-main{
+    @include res('>', 768) {
+      display: table-cell;
+      vertical-align: top;
+    }
+  }
+  .grid2-side{
+    @include res('>', 768) {
+      width: 21%;
+    }
+  }
+  .grid2-main{
+    margin: 0;
+    padding: 0;
+    @include res('>', 768) {
+      padding-left: 5%;
+    }
+  }
+}
+
+article{
+  padding: 102px 0  0;
+  position: relative;
+  @include res('>', 768) {
+    padding: 184px 0 0;
+  }
+}
+
+section{
+  &.pad-top{
+    padding-top: 54px;
+    @include res('>', 768) {
+      padding-top: 169px;
+    }
+  }
+  &.pad-btm{
+    padding-bottom: 54px;
+    @include res('>', 768) {
+      padding-bottom: 169px;
+    }
+    &.__pc-pad-btm-none{
+      @include res('>', 768) {
+        padding-bottom: 0;
+      }
+    }
+  }
+}
+
+.inner{
+  padding: 0 28px;
+  @include res('>', 768) {
+    margin: 0 auto;
+    max-width: 996px;
+    padding: 0 30px;
+  }
+}
