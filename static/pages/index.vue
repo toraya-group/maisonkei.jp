@@ -170,7 +170,7 @@
               <h3 class="fs_home_h3">メニュー<span class="fs-small">（コース料理）</span></h3>
               <dl class="dl-table">
                 <dt>ランチ</dt>
-                <dd>3,500円（4皿）<br>6,500円（6皿）</dd>
+                <dd>3,500円（4皿）<br>6,800円（6皿）</dd>
               </dl>
               <dl class="dl-table">
                 <dt>ディナー</dt>
