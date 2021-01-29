@@ -196,24 +196,6 @@
       </div>
     </section>
 
-    <section class="sp">
-      <div class="inner">
-        <dl class="grid2">
-          <dt class="grid2-side">
-            <h2 class="contents-title home-insta-title">Instagram</h2>
-          </dt>
-          <dd class="grid2-main">
-            <div class="section-profile">
-              <p class="__mt-none">Maison KEIの日々をお届けしております。</p>
-              <div class="home-link __mt-none">
-                <a href="/profile/" class="link-unerline">Maison KEI Instagram</a>
-              </div>
-            </div>
-          </dd>
-        </dl>
-      </div>
-    </section>
-
     <section>
       <div class="inner">
         <div class="recruit">
@@ -225,8 +207,15 @@
             </a>
           </div>
         </div>
+        <div class="section-instagram">
+          <a href="https://www.instagram.com/maisonkei.gotemba/?igshid=13hul0l2cdkxb" target="_blank" class="instagram-link">
+            <span class="instagramLink-icon"></span>
+            <span class="instagramLink-txt">Instagram</span>
+          </a>
+        </div>
       </div>
     </section>
+
 
   </article>
 </template>

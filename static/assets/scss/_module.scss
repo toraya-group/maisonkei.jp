@@ -121,6 +121,10 @@
     @include ff_jp_bold;
     letter-spacing: 0.1em;
   }
+  .profileTitle-en{
+    @include fs_home_h3_small;
+    @include ff_en;
+  }
   &:last-child{
     margin-top: 34px;
     @include res('>', 768) {
@@ -131,6 +135,7 @@
 
 .contents-category{
   margin: 38px 0 0;
+  @include ff_en;
   @include res('>', 768) {
     margin-top: 57px;
   }
@@ -312,6 +317,7 @@
   }
   .pageNav-next,
   .pageNav-prev{
+    @include fs_home_caption;
     @include res('>', 768) {
       display: table-cell;
       width: 50%;
@@ -361,7 +367,6 @@
   .pagetopMod-inner{
     .pagetopModInner-link{
       display: block;
-      width: 39px;
       height: 35px;
       @include res('>', 768) {
         width: 47px;
@@ -381,9 +386,10 @@
         }
       }
       .pagetopModInnerLink-txt{
-        margin-top: 10px;
+        margin-top: 8px;
         display: block;
         text-align: center;
+        @include ff_en;
         @include fs_page_top;
       }
     }
@@ -427,6 +433,11 @@
     padding: 60px 0 5px;
     @include res('>', 768) {
       padding: 133px 0 36px;
+    }
+  }
+  .footer{
+    @include res('>', 768) {
+      margin-top: 60px;
     }
   }
   .contents-title{
@@ -540,3 +551,42 @@
     }
   }
 }
+
+.section-instagram{
+  margin-top: 35px;
+  @include res('>', 1150) {
+    margin-top: 63px;
+  }
+}
+
+.instagram-link{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  .instagramLink-icon,
+  .instagramLink-txt{
+    margin: 0 auto;
+    display: block;
+  }
+  .instagramLink-icon{
+    width: 28px;
+    height: 28px;
+    background: url(../img/mk-icon-instagram-gray.svg) no-repeat center center;
+    background-size: 28px 28px;
+    @include res('>', 1150) {
+      width: 32px;
+      height: 32px;
+      background-size: 32px 32px;
+    }
+  }
+  .instagramLink-txt{
+    padding-top: 5px;
+    color: $txt-color-gray;
+    letter-spacing: .05em;
+    @include fs_home_caption;
+    @include res('>', 1150) {
+    font-size: 14px;
+    }
+  }
+}
+

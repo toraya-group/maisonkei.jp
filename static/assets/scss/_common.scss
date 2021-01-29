@@ -14,7 +14,7 @@ ol{
 body{
   margin: 0;
   padding: 0;
-  @include ff_default;
+  @include ff_jp;
   @include fs_body;
   color: $txt-color-black;
 }
