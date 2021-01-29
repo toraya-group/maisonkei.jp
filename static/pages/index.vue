@@ -111,7 +111,7 @@
             <p class="__pc-mt-none">「Restaurant KEI」のオーナーシェフ・小林 圭氏との出会いは、2010年。虎屋の18代当主・黒川
               光晴がフランス・パリに勤務していたときのことです。当時、小林氏はご自身のレストラン「Restaurant
               KEI」の開業準備の真っ只中で、黒川は、食材調達に同行させていただいたり、厨房作業を見学させていただくなど、パリでのレストランの開業準備を目の当たりにし、多くの学びを得ました。2011年の開業後も交流が続き、常に味を突き詰め極められている小林氏の姿勢に大変感銘を受け、「いつかご一緒できる機会があれば」という思いを抱いていました。<br>
-              そのようなご縁で、小林氏と共に、5年ほど前より御殿場市においてレストランの開業準備を進め、今秋オープンの運びとなりました。</p>
+              そのようなご縁で、小林氏と共に、5年ほど前より御殿場市においてレストランの開業準備を進め、1月30日（土）にオープンの運びとなりました。</p>
           </dd>
         </dl>
         <div class="home-link">
@@ -128,8 +128,7 @@
           </dt>
           <dd class="grid2-main">
             <figure class="home-kv __ng-margin">
-              <img src="/img/home/food-pc.jpg" alt="画像：料理" class="pc">
-              <img src="/img/home/food-sp.jpg" alt="画像：料理" class="sp">
+              <img src="/img/home/food.jpg" alt="画像：料理">
             </figure>
             <div class="section-profile">
               <p>食材の命を大切にすること。<br>
@@ -146,11 +145,7 @@
                 <dt>ディナー</dt>
                 <dd>4,800円（4皿）<br>7,800円（6皿）</dd>
               </dl>
-              <p class="fs_home_caption">＊コースに飲み物、消費税、サービス料は含まれておりません。</p>
-              <figure class="home-food-illust">
-                <img src="/img/home/menu-sp.jpg" alt="画像：料理イラスト" class="sp">
-                <img src="/img/home/menu-pc.jpg" alt="画像：料理イラスト" class="pc">
-              </figure>
+              <p class="fs_home_caption">＊コースに飲み物、消費税、サービス料は含まれておりません</p>
             </div>
           </dd>
         </dl>
@@ -164,6 +159,9 @@
             <h2 class="contents-title home-access-title">交通案内</h2>
           </dt>
           <dd class="grid2-main">
+            <figure class="home-kv __ng-margin">
+              <img src="/img/home/access.jpg" alt="画像：店舗">
+            </figure>
             <figure class="home-access-cover">
               <img src="/img/home/map.svg" alt="画像：交通案内">
             </figure>
@@ -196,7 +194,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="pad-small">
       <div class="inner">
         <div class="recruit">
           <h2 class="section-title title-food"><span class="sectionTitle-jp">求人</span></h2>
