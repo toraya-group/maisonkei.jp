@@ -1,5 +1,5 @@
 <template>
   <footer class="footer">
-    <small>&copy;&nbsp;Maison KEI</small>
+    <small><a href="/">&copy;&nbsp;Maison KEI</a></small>
   </footer>
 </template>
