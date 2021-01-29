@@ -86,12 +86,12 @@ var component = Object(componentNormalizer["a" /* default */])(
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/NewsLoadBtn.vue?vue&type=template&id=1ef19436&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"load-wrap"},[_vm._ssrNode("<a href class=\"load-btn\">more load</a>")])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/NewsLoadBtn.vue?vue&type=template&id=487b5206&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c("div")}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/NewsLoadBtn.vue?vue&type=template&id=1ef19436&
+// CONCATENATED MODULE: ./components/NewsLoadBtn.vue?vue&type=template&id=487b5206&
 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 var componentNormalizer = __webpack_require__(1);
@@ -125,12 +125,12 @@ var component = Object(componentNormalizer["a" /* default */])(
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/news/202101/30/index.vue?vue&type=template&id=0b2a40dc&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('article',[_vm._ssrNode("<section>","</section>",[_vm._ssrNode("<div class=\"inner\">","</div>",[_vm._ssrNode("<dl class=\"grid2\">","</dl>",[_vm._ssrNode("<dt class=\"grid2-side\">","</dt>",[_vm._ssrNode("<h1 class=\"contents-title\">お知らせ</h1> "),_vm._ssrNode("<div class=\"pc\">","</div>",[_c('news-archive-nav'),_vm._ssrNode(" "),_c('news-category-nav')],2)],2),_vm._ssrNode(" "),_vm._ssrNode("<dd class=\"grid2-main\">","</dd>",[_vm._ssrNode("<div class=\"news-detail\"><div class=\"newsDetail-date\">2021.01.30</div> <h1 class=\"newsDetail-title\">Maison Kei における新型コロナウイルス感染拡大防止の取り組みについて</h1> <figure><img src=\"/img/news/dummy1.jpg\" alt></figure> <p>ダミーテキストです。ここにお知らせ本文テキストが入ります。Maison KEIは、パリのフレンチレストラン「Restaurant KEI」と和菓子屋「とらや」がはじめるフレンチレストランです。パリや東京の喧騒から離れ、気軽に、少しゆったりと、私たちの料理や菓子をお召し上がりいただきたいとの想いから、食材と水の豊かな御殿場市東山に店を構えます。富士山を望むこの地で、小林 圭氏が創造する料理をお楽しみください。</p> <p>ダミーテキストです。ここにお知らせ本文テキストが入ります。Maison KEIは、パリのフレンチレストラン「Restaurant KEI」と和菓子屋「とらや」がはじめるフレンチレストランです。パリや東京の喧騒から離れ、気軽に、少しゆったりと、私たちの料理や菓子をお召し上がりいただきたいとの想いから、食材と水の豊かな御殿場市東山に店を構えます。富士山を望むこの地で、小林 圭氏が創造する料理をお楽しみください。</p> <p>ダミーテキストです。ここにお知らせ本文テキストが入ります。Maison KEIは、パリのフレンチレストラン「Restaurant KEI」と和菓子屋「とらや」がはじめるフレンチレストランです。パリや東京の喧騒から離れ、気軽に、少しゆったりと、私たちの料理や菓子をお召し上がりいただきたいとの想いから、食材と水の豊かな御殿場市東山に店を構えます。富士山を望むこの地で、小林 圭氏が創造する料理をお楽しみください。</p></div> <div class=\"page-nav\"><div class=\"pageNav-next\"><a href>2021年1月営業時間のご案内</a></div> <div class=\"pageNav-prev\"><a href>ご予約方法のご案内</a></div></div> "),_vm._ssrNode("<div class=\"sp\">","</div>",[_c('news-archive-nav'),_vm._ssrNode(" "),_c('news-category-nav')],2)],2)],2)])])])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/news/202101/30/index.vue?vue&type=template&id=048ced34&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('article',[_vm._ssrNode("<section>","</section>",[_vm._ssrNode("<div class=\"inner\">","</div>",[_vm._ssrNode("<dl class=\"grid2\">","</dl>",[_vm._ssrNode("<dt class=\"grid2-side\">","</dt>",[_vm._ssrNode("<h1 class=\"contents-title\">お知らせ</h1> "),_vm._ssrNode("<div class=\"pc\">","</div>",[_c('news-archive-nav'),_vm._ssrNode(" "),_c('news-category-nav')],2)],2),_vm._ssrNode(" "),_vm._ssrNode("<dd class=\"grid2-main\">","</dd>",[_vm._ssrNode("<div class=\"news-detail\"><div class=\"newsDetail-date\">2021.01.30</div> <h1 class=\"newsDetail-title\">臨時休業のお知らせ</h1> <p>2月1日（月）は、臨時休業いたします。<br>\n            【定休日　毎週火曜日・水曜日】</p></div> "),_vm._ssrNode("<div class=\"sp\">","</div>",[_c('news-archive-nav'),_vm._ssrNode(" "),_c('news-category-nav')],2)],2)],2)])])])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/news/202101/30/index.vue?vue&type=template&id=0b2a40dc&
+// CONCATENATED MODULE: ./pages/news/202101/30/index.vue?vue&type=template&id=048ced34&
 
 // EXTERNAL MODULE: ./components/NewsArchiveNav.vue + 2 modules
 var NewsArchiveNav = __webpack_require__(41);
@@ -181,10 +181,6 @@ var ContentsHeader = __webpack_require__(19);
 //
 //
 //
-//
-//
-//
-//
 
 
 
@@ -192,11 +188,11 @@ var ContentsHeader = __webpack_require__(19);
 /* harmony default export */ var _30vue_type_script_lang_js_ = ({
   head() {
     return {
-      title: 'Maison Kei における新型コロナウイルス感染拡大防止の取り組みについて',
+      title: '臨時休業のお知らせ',
       meta: [{
         hid: 'description',
         name: 'description',
-        content: 'Maison KEIは、パリのフレンチレストラン「Restaurant KEI」と和菓子屋「とらや」がはじめるフレンチレストランです。'
+        content: '2月1日（月）は、臨時休業いたします。'
       }, {
         property: 'og:url',
         content: 'https://www.maisonkei.jp/news/202101/30/'
@@ -208,10 +204,10 @@ var ContentsHeader = __webpack_require__(19);
         content: 'Maison KEI'
       }, {
         property: 'og:title',
-        content: 'Maison KEI - Maison Kei における新型コロナウイルス感染拡大防止の取り組みについて'
+        content: 'Maison KEI - 臨時休業のお知らせ'
       }, {
         property: 'og:description',
-        content: 'ダミーテキストです。ここにお知らせ本文テキストが入ります。'
+        content: '2月1日（月）は、臨時休業いたします。'
       }, {
         property: 'og:image',
         content: 'https://www.maisonkei.jp/img/sns.jpg'
@@ -220,10 +216,10 @@ var ContentsHeader = __webpack_require__(19);
         content: 'summary_large_image'
       }, {
         name: 'twitter:title',
-        content: 'Maison KEI - Maison Kei における新型コロナウイルス感染拡大防止の取り組みについて'
+        content: 'Maison KEI - 臨時休業のお知らせ'
       }, {
         name: 'twitter:description',
-        content: 'ダミーテキストです。ここにお知らせ本文テキストが入ります。'
+        content: '2月1日（月）は、臨時休業いたします。'
       }, {
         name: 'twitter:image:src',
         content: 'https://www.maisonkei.jp/img/sns.jpg'

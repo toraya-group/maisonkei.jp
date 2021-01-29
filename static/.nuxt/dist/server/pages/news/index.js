@@ -86,12 +86,12 @@ var component = Object(componentNormalizer["a" /* default */])(
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/NewsLoadBtn.vue?vue&type=template&id=1ef19436&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"load-wrap"},[_vm._ssrNode("<a href class=\"load-btn\">more load</a>")])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/NewsLoadBtn.vue?vue&type=template&id=487b5206&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c("div")}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/NewsLoadBtn.vue?vue&type=template&id=1ef19436&
+// CONCATENATED MODULE: ./components/NewsLoadBtn.vue?vue&type=template&id=487b5206&
 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 var componentNormalizer = __webpack_require__(1);
@@ -125,12 +125,12 @@ var component = Object(componentNormalizer["a" /* default */])(
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/news/index.vue?vue&type=template&id=345d87c8&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('article',[_vm._ssrNode("<section>","</section>",[_vm._ssrNode("<div class=\"inner\">","</div>",[_vm._ssrNode("<dl class=\"grid2\">","</dl>",[_vm._ssrNode("<dt class=\"grid2-side\">","</dt>",[_vm._ssrNode("<h1 class=\"contents-title\">お知らせ</h1> "),_vm._ssrNode("<div class=\"pc\">","</div>",[_c('news-archive-nav'),_vm._ssrNode(" "),_c('news-category-nav')],2)],2),_vm._ssrNode(" "),_vm._ssrNode("<dd class=\"grid2-main\">","</dd>",[_vm._ssrNode("<div class=\"news-index\"><ul class=\"newsIndex-ul\"><li><a href=\"/news/202101/30/\" class=\"newsIndex-block\"><span class=\"newsIndexBlock-txt\"><span class=\"newsIndexBlockTxt-date\">2021.01.31</span> <h2 class=\"newsIndexBlockTxt-title\">2021年1月営業時間のご案内</h2></span> <span class=\"newsIndexBlock-img\"><figure><img src=\"/img/news/dummy1.jpg\" alt></figure></span></a></li> <li><a href=\"/news/202101/30/\" class=\"newsIndex-block\"><span class=\"newsIndexBlock-txt\"><span class=\"newsIndexBlockTxt-date\">2021.01.30</span> <h2 class=\"newsIndexBlockTxt-title\">Maison Kei における新型コロナウイルス感染拡大防止の取り組みについて</h2></span></a></li> <li><a href=\"/news/202101/30/\" class=\"newsIndex-block\"><span class=\"newsIndexBlock-txt\"><span class=\"newsIndexBlockTxt-date\">2021.01.30</span> <h2 class=\"newsIndexBlockTxt-title\">ご予約方法のご案内</h2></span> <span class=\"newsIndexBlock-img\"><figure><img src=\"/img/news/dummy2.jpg\" alt></figure></span></a></li> <li><a href=\"/news/202101/30/\" class=\"newsIndex-block\"><span class=\"newsIndexBlock-txt\"><span class=\"newsIndexBlockTxt-date\">2021.01.30</span> <h2 class=\"newsIndexBlockTxt-title\">Masion Kei 開業のご挨拶</h2></span></a></li> <li><a href=\"/news/202101/30/\" class=\"newsIndex-block\"><span class=\"newsIndexBlock-txt\"><span class=\"newsIndexBlockTxt-date\">2021.01.31</span> <h2 class=\"newsIndexBlockTxt-title\">2021年1月営業時間のご案内</h2></span> <span class=\"newsIndexBlock-img\"><figure><img src=\"/img/news/dummy1.jpg\" alt></figure></span></a></li> <li><a href=\"/news/202101/30/\" class=\"newsIndex-block\"><span class=\"newsIndexBlock-txt\"><span class=\"newsIndexBlockTxt-date\">2021.01.30</span> <h2 class=\"newsIndexBlockTxt-title\">Maison Kei における新型コロナウイルス感染拡大防止の取り組みについて</h2></span></a></li> <li><a href=\"/news/202101/30/\" class=\"newsIndex-block\"><span class=\"newsIndexBlock-txt\"><span class=\"newsIndexBlockTxt-date\">2021.01.30</span> <h2 class=\"newsIndexBlockTxt-title\">ご予約方法のご案内</h2></span></a></li> <li><a href=\"/news/202101/30/\" class=\"newsIndex-block\"><span class=\"newsIndexBlock-txt\"><span class=\"newsIndexBlockTxt-date\">2021.01.30</span> <h2 class=\"newsIndexBlockTxt-title\">Masion Kei 開業のご挨拶</h2></span> <span class=\"newsIndexBlock-img\"><figure><img src=\"/img/news/dummy2.jpg\" alt></figure></span></a></li></ul></div> "),_c('news-load-btn'),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"sp\">","</div>",[_c('news-archive-nav'),_vm._ssrNode(" "),_c('news-category-nav')],2)],2)],2)])])])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/news/index.vue?vue&type=template&id=8316097e&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('article',[_vm._ssrNode("<section>","</section>",[_vm._ssrNode("<div class=\"inner\">","</div>",[_vm._ssrNode("<dl class=\"grid2\">","</dl>",[_vm._ssrNode("<dt class=\"grid2-side\">","</dt>",[_vm._ssrNode("<h1 class=\"contents-title\">お知らせ</h1> "),_vm._ssrNode("<div class=\"pc\">","</div>",[_c('news-archive-nav'),_vm._ssrNode(" "),_c('news-category-nav')],2)],2),_vm._ssrNode(" "),_vm._ssrNode("<dd class=\"grid2-main\">","</dd>",[_vm._ssrNode("<div class=\"news-index\"><ul class=\"newsIndex-ul\"><li><a href=\"/news/202101/30/\" class=\"newsIndex-block\"><span class=\"newsIndexBlock-txt\"><span class=\"newsIndexBlockTxt-date\">2021.01.30</span> <h2 class=\"newsIndexBlockTxt-title\">臨時休業のお知らせ</h2></span> <span class=\"newsIndexBlock-img\"><figure><img src=\"/img/news/dummy1.jpg\" alt></figure></span></a></li></ul></div> "),_c('news-load-btn'),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"sp\">","</div>",[_c('news-archive-nav'),_vm._ssrNode(" "),_c('news-category-nav')],2)],2)],2)])])])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/news/index.vue?vue&type=template&id=345d87c8&
+// CONCATENATED MODULE: ./pages/news/index.vue?vue&type=template&id=8316097e&
 
 // EXTERNAL MODULE: ./components/NewsArchiveNav.vue + 2 modules
 var NewsArchiveNav = __webpack_require__(41);
@@ -145,77 +145,6 @@ var NewsLoadBtn = __webpack_require__(43);
 var ContentsHeader = __webpack_require__(19);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/news/index.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //

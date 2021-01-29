@@ -294,6 +294,7 @@
   .newsDetail-date{
     margin-bottom: 1px;
     @include fs_date;
+    @include ff_en;
     @include res('>', 768) {
       margin-bottom: 12px;
     }
@@ -436,6 +437,22 @@
         transform: translateX(-10%);
       }
     }
+  }
+}
+
+.fadeIn {
+  opacity: 0;
+  animation-delay: 1.4s;
+  animation-name: fadeIn;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;         
+  }
+  100% {
+    opacity: 1;
   }
 }
 

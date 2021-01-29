@@ -2,7 +2,7 @@
   <article>
 
     <!-- Slider main container -->
-    <div class="pc">
+    <div class="pc fadeIn">
       <div class="swiper-container slider-pc">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
@@ -46,7 +46,7 @@
       </div>
     </div>
 
-    <div class="sp">
+    <div class="sp fadeIn">
       <div class="swiper-container slider-sp">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
@@ -113,34 +113,8 @@
                 <li>
                   <a href="/news/202101/30/" class="newsIndex-block">
                     <span class="newsIndexBlock-txt">
-                      <span class="newsIndexBlockTxt-date">2021.01.31</span>
-                      <h2 class="newsIndexBlockTxt-title">2021年1月営業時間のご案内</h2>
-                    </span>
-                    <span class="newsIndexBlock-img">
-                      <figure>
-                        <img src="/img/news/dummy1.jpg" alt="">
-                      </figure>
-                    </span>
-                  </a>
-                </li>
-                <li>
-                  <a href="/news/202101/30/" class="newsIndex-block">
-                    <span class="newsIndexBlock-txt">
                       <span class="newsIndexBlockTxt-date">2021.01.30</span>
-                      <h2 class="newsIndexBlockTxt-title">Maison Kei における新型コロナウイルス感染拡大防止の取り組みについて</h2>
-                    </span>
-                  </a>
-                </li>
-                <li>
-                  <a href="/news/202101/30/" class="newsIndex-block">
-                    <span class="newsIndexBlock-txt">
-                      <span class="newsIndexBlockTxt-date">2021.01.30</span>
-                      <h2 class="newsIndexBlockTxt-title">ご予約方法のご案内</h2>
-                    </span>
-                    <span class="newsIndexBlock-img">
-                      <figure>
-                        <img src="/img/news/dummy2.jpg" alt="">
-                      </figure>
+                      <h2 class="newsIndexBlockTxt-title">臨時休業のお知らせ</h2>
                     </span>
                   </a>
                 </li>
@@ -312,7 +286,7 @@
       //slider
       new Swiper('.slider-pc', {
         autoplay: {
-          delay: 4000,
+          delay: 5000,
         },
         effect: 'fade',
         fadeEffect: {
@@ -324,7 +298,7 @@
       });
       new Swiper('.slider-sp', {
         autoplay: {
-          delay: 4000,
+          delay: 5000,
         },
         effect: 'fade',
         fadeEffect: {
