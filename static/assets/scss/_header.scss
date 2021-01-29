@@ -1,3 +1,5 @@
+$headerReservation-btn-pc-width: 330px;
+
 .header{
   position: fixed;
   bottom: 0;
@@ -52,7 +54,7 @@
       display: none;
       z-index: 30;
       @include res('>', 1150) {
-        padding-right: 288px;
+        padding-right: $headerReservation-btn-pc-width;
         display: block;
         position: inherit;
         top: inherit;
@@ -69,7 +71,7 @@
       }
       .headerNavMain-copy{
         position: absolute;
-        bottom: 18px;
+        bottom: 12px;
         left: 20px;
         font-size: 10px;
         @include res('>', 1150) {
@@ -82,8 +84,8 @@
         background: url(../img/mk-close-black.svg) no-repeat left top;
         background-size: 22px 17px;
         position: absolute;
-        top: 24px;
-        right: 24px;
+        bottom: 16px;
+        right: 13px;
         cursor: pointer;
         @include res('>', 1150) {
           display: none;
@@ -91,10 +93,10 @@
       }
       .headerNavMain-logo{
         margin: 0 auto 39px;
-        width: 73px;
+        width: 72.58px;
         height: 69px;
         background: url(../img/mk-logo.svg) no-repeat left top;
-        background-size: 73px 69px;
+        background-size: 72.58px 69px;
         @include res('>', 1150) {
           display: none;
         }
@@ -138,7 +140,7 @@
             @include res('>', 1300) {
               margin-top: 0;
               position: absolute;
-              right: 31px;
+              right: 15px;
             }
             a{
               margin: 0 auto;
@@ -179,25 +181,14 @@
         position: relative;
         @include res('>', 1150) {
           padding-top: 0;
+          padding-bottom: 28px;
           display: block;
           width: auto;
         }
         @include res('~', 1010, 1150){
           padding-left: 25%;
           padding-right: 25%;
-        }
-      }
-      .headerReservationHide-close{
-        width: 22px;
-        height: 17px;
-        background: url(../img/mk-close-white.svg) no-repeat left top;
-        background-size: 22px 17px;
-        position: absolute;
-        top: 24px;
-        right: 24px;
-        cursor: pointer;
-        @include res('>', 1150) {
-          display: none;
+          padding-bottom: 10px;
         }
       }
       .headerReservationHide-title{
@@ -240,6 +231,9 @@
           margin: 0 0 22px;
           display: table;
           width: 100%;
+          @include res('>', 1150) {
+            margin-bottom: 15px;
+          }
           dt,
           dd{
             display: table-cell;
@@ -257,17 +251,7 @@
         position: absolute;
         top: 0;
         right: 0;
-        width: 288px;
-      }
-      &.__active{
-        @include res('>', 1150) {
-          width: 360px;
-        }
-        .headerNavInner-reservation{
-          @include res('>', 1150) {
-            width: 360px;
-          }
-        }
+        width: $headerReservation-btn-pc-width;
       }
       .headerNavInner-reservation{
         border-right: solid 1px $color-white;
@@ -279,7 +263,7 @@
         @include res('>', 1150) {
           border-right: none;
           height: 72px;
-          width: 288px;
+          width: $headerReservation-btn-pc-width;
         }
         .headerReservation-btn{
           cursor: pointer;

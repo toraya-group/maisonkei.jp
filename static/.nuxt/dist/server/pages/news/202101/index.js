@@ -1,7 +1,7 @@
 exports.ids = [4];
 exports.modules = {
 
-/***/ 41:
+/***/ 40:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40,7 +40,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 42:
+/***/ 41:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -79,7 +79,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 43:
+/***/ 42:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -118,7 +118,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 47:
+/***/ 46:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -133,13 +133,13 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./pages/news/202101/index.vue?vue&type=template&id=17d82e24&
 
 // EXTERNAL MODULE: ./components/NewsArchiveNav.vue + 2 modules
-var NewsArchiveNav = __webpack_require__(41);
+var NewsArchiveNav = __webpack_require__(40);
 
 // EXTERNAL MODULE: ./components/NewsCategoryNav.vue + 2 modules
-var NewsCategoryNav = __webpack_require__(42);
+var NewsCategoryNav = __webpack_require__(41);
 
 // EXTERNAL MODULE: ./components/NewsLoadBtn.vue + 2 modules
-var NewsLoadBtn = __webpack_require__(43);
+var NewsLoadBtn = __webpack_require__(42);
 
 // EXTERNAL MODULE: ./components/ContentsHeader.vue + 2 modules
 var ContentsHeader = __webpack_require__(19);
@@ -268,7 +268,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var _202101 = __webpack_exports__["default"] = (component.exports);
 
 /* nuxt-component-imports */
-installComponents(component, {NewsArchiveNav: __webpack_require__(41).default,NewsCategoryNav: __webpack_require__(42).default})
+installComponents(component, {NewsArchiveNav: __webpack_require__(40).default,NewsCategoryNav: __webpack_require__(41).default})
 
 
 /***/ })

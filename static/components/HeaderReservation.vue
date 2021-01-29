@@ -1,6 +1,5 @@
 <template>
   <div class="__inner">
-    <div class="headerReservationHide-close"></div>
     <div class="headerReservationHide-title">ご予約はこちら</div>
     <dl class="headerReservationHide-tel">
       <dt>TEL</dt>
