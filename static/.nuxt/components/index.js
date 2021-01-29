@@ -1,3 +1,4 @@
+export { default as Carousel } from '../../components/Carousel.vue'
 export { default as Contents } from '../../components/Contents.vue'
 export { default as ContentsHeader } from '../../components/ContentsHeader.vue'
 export { default as Footer } from '../../components/Footer.vue'
@@ -9,6 +10,7 @@ export { default as NewsArchiveNav } from '../../components/NewsArchiveNav.vue'
 export { default as NewsCategoryNav } from '../../components/NewsCategoryNav.vue'
 export { default as NewsLoadBtn } from '../../components/NewsLoadBtn.vue'
 
+export const LazyCarousel = import('../../components/Carousel.vue' /* webpackChunkName: "components/carousel" */).then(c => c.default || c)
 export const LazyContents = import('../../components/Contents.vue' /* webpackChunkName: "components/contents" */).then(c => c.default || c)
 export const LazyContentsHeader = import('../../components/ContentsHeader.vue' /* webpackChunkName: "components/contents-header" */).then(c => c.default || c)
 export const LazyFooter = import('../../components/Footer.vue' /* webpackChunkName: "components/footer" */).then(c => c.default || c)

@@ -1,4 +1,10 @@
 {
+  "Carousel": {
+    "description": "Auto imported from /components/Carousel.vue"
+  },
+  "LazyCarousel": {
+    "description": "Auto imported from /components/Carousel.vue"
+  },
   "Contents": {
     "description": "Auto imported from /components/Contents.vue"
   },
