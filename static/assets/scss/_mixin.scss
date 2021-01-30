@@ -36,9 +36,11 @@
   width: 100%;
   max-width: 100%;
   height: auto;
+  vertical-align: bottom;
 }
 
 @mixin list_style_non{
+  margin: 0;
   list-style: none;
   padding-left: 0;
 }
@@ -59,13 +61,24 @@
 	}
 }
 
+@mixin flex {
+  	display:-webkit-box;
+  	display:-ms-flexbox;
+  	display:flex;
+}
+
 @mixin ff_default {
-  font-family: 'EB Garamond', 'Yu Mincho StdN', '游明朝体 StdN', serif;
+  font-family: 'EB Garamond', 'Yu Mincho Pr6N R', '游明朝体 Pr6N R', 'Yu Mincho', serif;
   font-weight: 400;
 }
 
 @mixin ff_jp {
-  font-family: 'Yu Mincho StdN', '游明朝体 StdN', serif;
+  font-family: 'Yu Mincho Pr6N R', '游明朝体 Pr6N R', 'Yu Mincho', serif;
+  font-weight: 500;
+}
+
+@mixin ff_jp_sans-serif {
+  font-family: '游ゴシック体', 'Yu Gothic', sans-serif;
   font-weight: 500;
 }
 
@@ -84,31 +97,123 @@
   font-weight: 600;
 }
 
-@mixin fs_h2 {
+@mixin ff_en_helvetica {
+  font-family: 'HelveticaNeue', sans-serif;
+  font-weight: 400;
+}
+
+
+@mixin fs_h1 {
   font-size: 28px;
   line-height: 36px;
   @include res('>', 768) {
-    font-size: 42px;
-    line-height: 52px;
+    font-size: 36px;
+    line-height: 120%;
+  }
+}
+
+@mixin fs_h2 {
+  font-size: 22px;
+  line-height: 33px;
+  @include res('>', 768) {
+  font-size: 24px;
+  line-height: 36px;
   }
 }
 
 @mixin fs_h3 {
   font-size: 18px;
-  line-height: 32px;
+  line-height: 27px;
 }
 
 @mixin fs_h4 {
   font-size: 16px;
-  line-height: 122%;
-}
-
-@mixin fs_body {
-  font-size: 15px;
   line-height: 32px;
 }
 
+@mixin fs_body {
+  font-size: 13px;
+  line-height: 28px;
+  letter-spacing: .05em;
+  @include res('>', 768) {
+    font-size: 14px;
+    line-height: 32px;
+  }
+}
+
 @mixin fs_caption {
+  font-size: 10px;
+  line-height: 16px;
+}
+
+@mixin fs_btn_road {
+  font-size: 10px;
+  line-height: 32px;
+}
+
+@mixin fs_date {
+  font-size: 12px;
+  line-height: 32px;
+  letter-spacing: .05em;
+}
+
+@mixin fs_news_title {
+  font-size: 13px;
+  line-height: 21px;
+  @include res('>', 768) {
+    font-size: 16px;
+    line-height: 32px;
+  }
+}
+
+@mixin fs_category_title {
+  font-size: 12px;
+  line-height: 28px;
+  letter-spacing: .05em;
+  @include res('>', 768) {
+    line-height: 16px;
+  }
+}
+
+@mixin fs_contents_title {
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: .05em;
+  @include res('>', 768) {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+@mixin fs_page_top {
+  @include fs_caption;
+  @include res('>', 768) {
+    font-size: 12px;
+    line-height: 180%;
+    letter-spacing: .05em;
+  }
+}
+
+@mixin fs_profile_label {
+  font-size: 10px;
+}
+
+@mixin fs_home_h3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+@mixin fs_home_h3_small {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+@mixin fs_home_caption {
   font-size: 12px;
   line-height: 21px;
+}
+
+@mixin fs_home_lead {
+  font-size: 16px;
+  line-height: 225%;
 }

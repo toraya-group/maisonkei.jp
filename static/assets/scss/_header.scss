@@ -1,32 +1,340 @@
+$headerReservation-btn-pc-width: 330px;
+
 .header{
-  padding: 48px 0 36px;
-  @include res('>', 768) {
-    padding: 128px 0 56px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 20;
+  @include res('>', 1150) {
+    border-bottom: solid 1px $border-color-lg;
+    background-color: $color-white;
+    display: table;
+    bottom: inherit;
   }
-  .logo{
-    margin: 0;
+  .header-logo{
+    display: none;
+    @include res('>', 1150) {
+      display: table-cell;
+      width: 1%;
+      white-space: nowrap;
+      vertical-align: top;
+    }
     a{
-      margin: 0 auto;
-      display: block;
-      width: 96px;
-      height: 101px;
-      background: url(../img/mk-logo.svg) no-repeat left top;
-      background-size: 96px 101px;
-      @include res('>', 768) {
-        margin: 0 auto;
-        width: 190px;
-        height: 185px;
-        background-size: 190px 185px;
+      @include res('>', 1150) {
+        margin: 19px 34px 20px;
+        display: block;
+        width: 220px;
+        height: 33px;
+        background: url(../img/mk-logo-side.svg) no-repeat center center;
+        background-size: 220px 33px;
       }
-      @include res('>', 1024) {
-        margin: 0 auto;
-        width: 236px;
-        height: 224px;
-        background-size: 236px 224px;
+      span{
+        display: none;
       }
     }
-    span{
+  }
+  .header-nav{
+    clear: both;
+    @include res('>', 1150) {
+      clear: inherit;
+      display: table-cell;
+      vertical-align: top;
+    }
+    .__inner{
+      @include res('>', 1150) {
+        display: table;
+        width: 100%;
+      }
+    }
+    .headerNav-main{
+      background-color: #FFF;
+      position: fixed;
+      top: 0;
+      width: 100%;
       display: none;
+      z-index: 30;
+      @include res('>', 1150) {
+        padding-right: $headerReservation-btn-pc-width;
+        display: block;
+        position: inherit;
+        top: inherit;
+        background-color: transparent;
+        display: table-cell;
+        vertical-align: top;
+        width: auto;
+      }
+      .__inner{
+        padding: 78px 24px 0;
+        @include res('>', 1150) {
+          padding: 24px 0 23px;
+        }
+      }
+      .headerNavMain-copy{
+        position: absolute;
+        bottom: 12px;
+        left: 20px;
+        font-size: 10px;
+        @include res('>', 1150) {
+          display: none;
+        }
+      }
+      .headerNavMain-close{
+        width: 22px;
+        height: 17px;
+        background: url(../img/mk-close-black.svg) no-repeat left top;
+        background-size: 22px 17px;
+        position: absolute;
+        bottom: 16px;
+        right: 13px;
+        cursor: pointer;
+        @include res('>', 1150) {
+          display: none;
+        }
+      }
+      .headerNavMain-logo{
+        margin: 0 auto 39px;
+        width: 72.58px;
+        height: 69px;
+        background: url(../img/mk-logo.svg) no-repeat left top;
+        background-size: 72.58px 69px;
+        @include res('>', 1150) {
+          display: none;
+        }
+      }
+      .headerNavMain-menu{
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        @include ff_jp;
+        font-size: 15px;
+        @include res('>', 1150) {
+          margin: 0 auto;
+          padding: 0;
+          font-size: 14px;
+          line-height: 21px;
+          vertical-align: top;
+          overflow: hidden;
+          position: relative;
+        }
+        li{
+          margin-bottom: 12px;
+          @include res('>', 1150) {
+            margin: 0 12px;
+            padding: 0;
+            display: inline-block;
+            vertical-align: top;
+          }
+          a{
+            display: block;
+            @include res('>', 1150) {
+              padding-top: 3px;
+            }
+          }
+          &.icon-instagram{
+            margin-top: 36px;
+            @include res('>', 1150) {
+              margin-top: 0;
+              position: absolute;
+              right: 15px;
+            }
+            a{
+              margin: 0 auto;
+              display: block;
+              width: 22px;
+              height: 22px;
+              background: url(../img/mk-icon-instagram.svg) no-repeat left center;
+              background-size: 22px 22px;
+              @include res('>', 1150) {
+                margin-top: 0;
+                vertical-align: middle;
+              }
+            }
+          }
+          &:first-child{
+            @include res('>', 1150) {
+              display: none;
+            }
+          }
+        }
+      }
     }
+    .headerReservation-hide{
+      border-bottom: solid 1px $color-white;
+      background-color: $color-black;
+      color: $txt-color-white;
+      overflow: scroll;
+      display: none;
+      @include res('>', 1150) {
+        border: none;
+        position: absolute;
+        top: 72px;
+        right: 0;
+        overflow: inherit;
+      }
+      .__inner{
+        padding: 50px 28px 0;
+        position: relative;
+        @include res('>', 1150) {
+          padding-top: 0;
+          padding-bottom: 28px;
+          display: block;
+          width: auto;
+        }
+        @include res('~', 1010, 1150){
+          padding-left: 25%;
+          padding-right: 25%;
+          padding-bottom: 10px;
+        }
+      }
+      .headerReservationHide-title{
+        margin-bottom: 18px;
+        font-size: 16px;
+        text-align: center;
+        @include res('>', 1150) {
+          display: none;
+        }
+      }
+      .headerReservationHide-tel{
+        margin: 0 auto 22px;
+        display: table;
+        @include ff_en;
+        font-weight: normal;
+        dt,
+        dd{
+          display: table-cell;
+          letter-spacing: 1px;
+        }
+        dt{
+          font-size: 14px;
+          padding-right: .5em;
+        }
+        dd{
+          a{
+            color: $color-white;
+            font-size: 28px;
+            letter-spacing: $txt-ls-small;
+          }
+        }
+      }
+      .headerReservationHide-caution{
+        @include ff_jp_sans-serif;
+        font-size: 12px;
+        line-height: 21px;
+        @include res('>', 1150) {
+        }
+        dl{
+          margin: 0 0 22px;
+          display: table;
+          width: 100%;
+          @include res('>', 1150) {
+            margin-bottom: 15px;
+          }
+          dt,
+          dd{
+            display: table-cell;
+            vertical-align: top;
+          }
+          dt{
+            padding-right: .5em;
+          }
+        }
+      }
+    }
+    .headerNav-inner{
+      @include flex;
+      @include res('>', 1150) {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: $headerReservation-btn-pc-width;
+      }
+      .headerNavInner-reservation{
+        border-right: solid 1px $color-white;
+        height: 48px;
+        background-color: $color-black;
+        -webkit-box-flex:1;
+        -ms-flex:1;
+        flex: 1;
+        @include res('>', 1150) {
+          border-right: none;
+          height: 72px;
+          width: $headerReservation-btn-pc-width;
+        }
+        .headerReservation-btn{
+          cursor: pointer;
+          .headerReservation-inner{
+            padding: 10px 0;
+            display: block;
+            font-size: 14px;
+            color: $txt-color-white;
+            text-align: center;
+            background: url(../img/mk-arrow-up-small.svg) no-repeat;
+            background-size: 13px 8px;
+            background-position: right 20px top 20px;
+            @include res('>', 1150) {
+              padding: 20px 0;
+              background: url(../img/mk-arrow-down-small.svg) no-repeat;
+              background-size: 15px 8px;
+              background-position: right 20px top 31px;
+            }
+          }
+          &.__active{
+            .headerReservation-inner{
+              background: url(../img/mk-arrow-down-small.svg) no-repeat;
+              background-size: 13px 8px;
+              background-position: right 20px top 20px;
+              @include res('>', 1150) {
+                background: url(../img/mk-arrow-up-small.svg) no-repeat;
+                background-size: 15px 8px;
+              background-position: right 20px top 31px;
+              }
+            }
+          }
+        }
+      }
+      .headerNavMenu-btn{
+        width: 48px;
+        height: 48px;
+        background-color: $color-black;
+        position: relative;
+        cursor: pointer;
+        @include res('>', 1150) {
+          display: none;
+        }
+        .headerNavMenuBtn-line{
+          display: block;
+          position: absolute;
+          top: 24px;
+          left: 14px;
+          width: 22px;
+          height: 1px;
+          background-color: $color-white;
+          &::before{
+            content: "";
+            position: absolute;
+            top: -8px;
+            display: block;
+            width: 22px;
+            height: 1px;
+            background-color: $color-white;
+          }
+          &::after{
+            content: "";
+            position: absolute;
+            top: 8px;
+            display: block;
+            width: 22px;
+            height: 1px;
+            background-color: $color-white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.home{
+  .header{
+    display: none;
   }
 }

@@ -1,12 +1,16 @@
 .footer{
   @include clearfix;
-  padding: 80px 30px 45px;
-  @include res('>', 768) {
-    padding: 144px 56px 66px;
-    margin: 0 auto;
-    max-width: 1088px;
+  margin-top: 30px;
+  padding: 21px 18px 73px;
+  @include res('>', 1150) {
+    margin-top: 120px;
+    padding: 24px 40px 40px;
   }
   small{
-    font-size: 11px;
+    font-size: 10px;
+    @include ff_en;
+    @include res('>', 1150) {
+      font-size: 12px;
+    }
   }
 }

@@ -12,11 +12,11 @@ ol{
 }
 
 body{
-  color: $color-black;
   margin: 0;
   padding: 0;
-  @include ff_default;
+  @include ff_jp;
   @include fs_body;
+  color: $txt-color-black;
 }
 
 a {
@@ -44,9 +44,12 @@ a {
   &.block{
     display: block;
   }
-  &.txt_line_non{
-    &:link{
-      text-decoration: none;
+  &.link-unerline{
+    border-bottom: solid 1px $border-color-gray;
+    padding-bottom: 3px;
+    color: $txt-color-gray;
+    &:hover{
+      border-bottom: none;
     }
   }
   img {
@@ -88,6 +91,14 @@ h4,
   @include fs_h4;
 }
 
+.jp-serif{
+  @include ff_jp;
+}
+
+.jp-sans-serif{
+  @include ff_jp_sans-serif;
+}
+
 .en-serif{
   @include ff_en;
 }
@@ -98,14 +109,24 @@ h4,
 
 p{
   margin-top: 30px;
-  &.mt-non{
+  &.__mt-none{
     margin-top: 0;
   }
-  &.mt-adj{
+  &.__pc-mt-none{
+    @include res('>', 768) {
+      margin-top: 0;
+    }
+  }
+  &.__mt-adj{
     @include res('>', 768) {
       margin-top: -9px;
     }
   }
+}
+
+ul,
+ol{
+  margin-left: 1.5em;
 }
 
 dl{
@@ -119,13 +140,10 @@ figure{
     @include img-full;
     vertical-align: bottom;
   }
-}
-
-section{
-  &.pad-top{
-    padding-top: 98px;
+  &.side-margin{
     @include res('>', 768) {
-      padding-top: 142px;
+      margin-right: 50px;
+      margin-left: 50px;
     }
   }
 }
@@ -183,15 +201,6 @@ section{
   @include img_full;
 }
 
-.inner{
-  padding: 0 30px;
-  @include res('>', 768) {
-    margin: 0 auto;
-    max-width: 1090px;
-    padding: 0 56px;
-  }
-}
-
 .link-external{
   margin-top: 18px;
   font-size: 15px;
@@ -240,7 +249,7 @@ section{
 
 dl{
   &.dl-table{
-    margin-bottom: 2em;
+    margin-bottom: 33px;
     display: table;
     dt,
     dd{
@@ -271,381 +280,51 @@ dl{
   }
   .grid2-side{
     @include res('>', 768) {
-      width: 23.5%;
-    }
-    h2{
-      margin-bottom: 30px;
-      @include fs_caption;
-      @include res('>', 768) {
-        font-size: 14px;
-      }
-      &.title-story{
-        margin-bottom: 30px;
-      }
-      &.title-food{
-        margin-bottom: 30px;
-      }
-      &.title-map{
-        margin-bottom: 30px;
-      }
+      width: 21%;
     }
   }
   .grid2-main{
     margin: 0;
     padding: 0;
     @include res('>', 768) {
-      padding-left: 8.8%;
+      padding-left: 5%;
     }
   }
 }
 
-
-// module
-.btn-wrap{
-  margin-top: 55px;
-  @include res('>', 768) {
-    margin: 80px auto 0;
-    max-width: 640px;
-  }
-}
-
-.btn{
-  padding: 0;
-  display: block;
+article{
+  padding: 102px 0  0;
   position: relative;
-  background-color: #000;
-  text-align: center;
-  line-height: 1.1em;
-  color: $color-white;
-  text-decoration: none;
-  @include ff_jp;
-  &:hover{
-    color: $color-white;
+  @include res('>', 768) {
+    padding: 184px 0 0;
   }
-  .btn-inner{
-    padding: 22px 24px;
-    display: block;
-    background: url(../img/mk-btn-arrow-down.svg) no-repeat;
-    background-size: 18px 10px;
-    background-position: right 24px top 24px;
-    cursor: pointer;
+}
+
+section{
+  &.pad-top{
+    padding-top: 54px;
+    @include res('>', 768) {
+      padding-top: 169px;
+    }
   }
-  .btn-hide{
-    padding-bottom: 22px;
-    color: $color-white;
-    display: none;
-    p{
-      margin-top: 0;
-      @include fs_caption;
-      &.__mt{
-        margin-top: 15px;
-      }
+  &.pad-btm{
+    padding-bottom: 54px;
+    @include res('>', 768) {
+      padding-bottom: 169px;
     }
-    .tel{
-      margin: 0 auto;
-      display: table;
-      @include ff_en;
-      font-weight: normal;
-      dt,
-      dd{
-        display: table-cell;
-        letter-spacing: 1px;
-      }
-      dt{
-        font-size: 12px;
-        line-height: 28px;
-        padding-right: 1em;
-        @include res('>', 768) {
-          font-size: 16px;
-          line-height: 38px;
-        }
-      }
-      dd{
-        a{
-          color: $color-white;
-        }
-        font-size: 24px;
-        line-height: 28px;
-        @include res('>', 768) {
-          font-size: 32px;
-          line-height: 38px;
-        }
-      }
-    }
-    .caution{
-      margin: 30px 7% 0;
+    &.__pc-pad-btm-none{
       @include res('>', 768) {
-        margin: 30px 14% 0;
-      }
-      dl{
-        margin: 12px 0 0;
-        text-align: left;
-        @include fs_caption;
-        display: table;
-        dt,
-        dd{
-          display: table-cell;
-          vertical-align: top;
-        }
+        padding-bottom: 0;
       }
     }
   }
-  &.open{
-    .btn-inner{
-      padding: 22px 24px;
-      display: block;
-      background: url(../img/mk-btn-arrow-up.svg) no-repeat;
-      background-size: 18px 10px;
-      background-position: right 24px top 24px;
-    }
-  }
-  &.ar-right{
-    .btn-inner{
-      padding: 22px 24px;
-      display: block;
-      background: url(../img/mk-btn-arrow-right.svg) no-repeat;
-      background-size:  11.199px 14.84px;
-      background-position: right 24px top 22px;
-    }
-  }
-  &.arrow-non{
-    &::after{
-      background: none;
-    }
-  }
 }
 
-.profile-col{
+.inner{
+  padding: 0 28px;
   @include res('>', 768) {
-    display: table;
-  }
-  dt,
-  dd{
-    margin: 0;
-    padding: 0;
-    @include res('>', 768) {
-      display: table-cell;
-      vertical-align: top;
-    }
-  }
-  dt{
-    @include res('>', 768) {
-      width: 43.5%;
-    }
-  }
-  dd{
-    @include res('>', 768) {
-      padding-left: 6.5%;
-    }
-  }
-  h3{
-    margin-top: 48px;
-    font-size: 20px;
-    @include res('>', 768) {
-      margin-top: -7px;
-      margin-bottom: 32px;
-    }
-    .caption{
-      display: inline-block;
-      margin-left: 20px;
-      font-size: 14px;
-      @include ff_en_bold;
-      vertical-align: 10%;
-    }
-  }
-}
-
-.flex-box{
-  margin: 80px 0;
-  @include res('>', 768) {
-    margin: 80px -4px;
-    display: table;
-  }
-  .flexBox-col{
-    @include res('>', 768) {
-      display: table-cell;
-    }
-  }
-  figure{
-    margin-bottom: 16px;
-    @include res('>', 768) {
-      margin: 0 4px;
-    }
-  }
-}
-
-.pagetop-wrap{
-  @include res('>', 768) {
-    position: fixed;
-    bottom: 10px;
     margin: 0 auto;
-    max-width: 1088px;
-    width: 100%;
-  }
-}
-
-.pagetop-mod{
-  position: absolute;
-  right: 32px;
-  @include res('>', 768) {
-    right: 0;
-    margin: 0 auto;
-    max-width: 1088px;
-  }
-  .pagetop-inner{
-    .pagetopInner-link{
-      display: block;
-      width: 30px;
-      height: 16px;
-      background: url(../img/mk-icon-pagetop.svg) no-repeat left top;
-      background-size: 30px 16px;
-    }
-  }
-}
-
-.cover{
-  margin-bottom: 18px;
-  @include res('>', 768) {
-    margin-bottom: 36px;
-  }
-}
-
-.section-title{
-  font-weight: 500;
-  .sectionTitle-jp,
-  .sectionTitle-en{
-    display: block;
-    @include ff_en_bold;
-  }
-  .sectionTitle-jp{
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: 3px;
-    @include ff_jp_bold;
-    &.ng-margin-left{
-      margin-left: -2px;
-    }
-  }
-  .sectionTitle-en{
-    font-size: 12px;
-    line-height: 32px;
-    letter-spacing: 1px;
-    @include ff_en_bold;
-  }
-}
-
-.profile-cover{
-  margin-bottom: 40px;
-  @include res('>', 768) {
-    margin-bottom: 50px;
-  }
-}
-
-.food-cover{
-  margin-bottom: 40px;
-  @include res('>', 768) {
-    margin: 0 0 50px;
-  }
-  &.ng-margin{
-    margin-top: 30px;
-    margin-bottom: 0;
-    @include res('>', 768) {
-      margin-top: 66px;
-      margin-left: -35px;
-      margin-right: -35px;
-    } 
-  }
-}
-
-.section-profile{
-  font-weight: normal;
-  .profile-label,
-  .profileTitle-jp,
-  .profileTitle-en{
-    line-height: 32px;
-  }
-  .profile-label{
-    font-size: 11px;
-    display: block;
-  }
-  .profileTitle-jp{
-    padding-right: 1em;
-    font-size: 20px;
-    @include ff_jp_bold;
-  }
-  .profileTitle-en{
-    font-size: 14px;
-    @include ff_en_bold;
-  }
-  &:last-child{
-    margin-top: 46px;
-    @include res('>', 768) {
-      margin-top: 75px;
-    }
-  }
-}
-
-.food-title{
-  font-size: 20px;
-  line-height: 32px;
-}
-
-.open-title{
-  margin-bottom: 42px;
-  text-align: center;
-  letter-spacing: 1px;
-  .openTitle-date,
-  .openTitle-txt{
-    display: block;
-  }
-  .openTitle-date{
-    font-size: 21px;
-    @include res('>', 768) {
-      font-size: 36px;
-    }
-    .fs-jp{
-      font-size: 18px;
-      @include res('>', 768) {
-        font-size: 30px;
-      }
-    }
-  }
-  .openTitle-txt{
-    font-size: 36.67px;
-    letter-spacing: 3px;
-    @include res('>', 768) {
-      font-size: 55px;
-      line-height: 83.56px;
-    }
-  }
-}
-
-.recruit{
-  margin: 0 -20px;
-  padding: 30px 16px 18px;
-  background-color: #EBEBEB;
-  @include res('>', 768) {
-    margin: 0;
-    padding-bottom: 58px;
-  }
-  h2,
-  p{
-    text-align: center;
-  }
-  h2{
-    margin-bottom: 0;
-  }
-  p{
-    margin-top: 15px;
-  }
-  .btn-wrap{
-    margin-top: 20px;
-    .btn{
-      background-color: #B18E6E;
-      @include res('>', 768) {
-        margin: 0 auto;
-        max-width: 375px;
-      }
-    }
+    max-width: 996px;
+    padding: 0 30px;
   }
 }
