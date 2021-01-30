@@ -3,3 +3,5 @@
 .cache
 # static/dist
 # static/.nuxt/dist
+node_modules
+dist
