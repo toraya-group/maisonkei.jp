@@ -286,27 +286,29 @@
       //slider
       new Swiper('.slider-pc', {
         autoplay: {
-          delay: 5000,
+          delay: 4000,
         },
         effect: 'fade',
         fadeEffect: {
-          crossFade: true
+          crossFade: true,
         },
-        speed: 1000,
+        speed: 1500,
         loop: true,
-        preloadImages: false
+        preloadImages: false,
+        allowTouchMove: false,
       });
       new Swiper('.slider-sp', {
         autoplay: {
-          delay: 5000,
+          delay: 4000,
         },
         effect: 'fade',
         fadeEffect: {
           crossFade: true
         },
-        speed: 1000,
+        speed: 1500,
         loop: true,
-        preloadImages: false
+        preloadImages: false,
+        allowTouchMove: false,
       });
     },
     components: {
