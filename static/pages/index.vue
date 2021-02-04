@@ -89,7 +89,7 @@
       </div>
     </div>
 
-    <section>
+    <section id="lead">
       <div class="inner">
         <h1 class="home-logo"><span class="none">Maison KEI</span></h1>
         <div class="home-lead">
