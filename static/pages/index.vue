@@ -286,29 +286,27 @@
       //slider
       new Swiper('.slider-pc', {
         autoplay: {
-          delay: 4000,
-        },
-        effect: 'fade',
-        fadeEffect: {
-          crossFade: true,
-        },
-        speed: 1500,
-        loop: true,
-        preloadImages: false,
-        allowTouchMove: false,
-      });
-      new Swiper('.slider-sp', {
-        autoplay: {
-          delay: 4000,
+          delay: 5000,
         },
         effect: 'fade',
         fadeEffect: {
           crossFade: true
         },
-        speed: 1500,
+        speed: 1000,
         loop: true,
-        preloadImages: false,
-        allowTouchMove: false,
+        preloadImages: false
+      });
+      new Swiper('.slider-sp', {
+        autoplay: {
+          delay: 5000,
+        },
+        effect: 'fade',
+        fadeEffect: {
+          crossFade: true
+        },
+        speed: 1000,
+        loop: true,
+        preloadImages: false
       });
     },
     components: {
