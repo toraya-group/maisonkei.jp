@@ -78,6 +78,7 @@
   width: 100%;
   background-color: $color-white;
   z-index: 9;
+  transition: .2s;
   @include res('>', 1150) {
     display: none;
   }
