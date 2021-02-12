@@ -101,7 +101,7 @@
       </div>
     </section>
 
-    <section id="news">
+    <section id="news" class="pc-nav-scrollup">
       <div class="inner">
         <dl class="grid2">
           <dt class="grid2-side">
@@ -137,7 +137,7 @@
     </section>
 
     <section>
-      <figure class="home-kv" id="story">
+      <figure class="home-kv " id="story">
         <img src="/img/home/story-pc.jpg" alt="画像：出会い" class="pc">
         <img src="/img/home/story-sp.jpg" alt="画像：出会い" class="sp">
       </figure>
@@ -270,7 +270,7 @@
         },
         script: [
           { src: '//unpkg.com/swiper/swiper-bundle.min.js', defer: '' },
-          { src: '/js/home.js', defer: '' },
+          { src: '/js/home.js', body: true, defer: '' },
         ],
         link: [
           { rel: 'stylesheet', href: '//unpkg.com/swiper/swiper-bundle.min.css', body: true }
