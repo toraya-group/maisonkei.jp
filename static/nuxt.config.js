@@ -47,7 +47,7 @@ module.exports = {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~assets/css/style.css',
+    { src: '~/assets/scss/style.scss', lang: 'scss' },
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

@@ -5,3 +5,4 @@
 # static/.nuxt/dist
 node_modules
 dist
+static/assets/css/style.css

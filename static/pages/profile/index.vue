@@ -13,11 +13,13 @@
             </figure>
             <div class="section-profile">
               <div class="profile-label">（写真左）</div>
+              <div class="profile-position">Chef</div>
               <h3 class="profile-title"><span class="profileTitle-jp">小林 圭</span><span class="profileTitle-en">Kei Kobayashi</span></h3>
               <p class="al-justify mt-non">長野県生まれ。長野、東京、フランスと料理人としての研鑽を積む。フランスでは南仏やアルザス地方などの有名レストランにて地方の豊かさを学び、そしてパリへ。パリでは世界的なシェフ、アラン・デュカス氏のレストラン「アラン・デュカス・オ・プラザ・アテネ」に職を得て7年間働く。この間最後の４年はスーシェフを務めた。2011年3月にオーナーシェフとしてパリに「Restaurant KEI」をオープン。2020年1月にフランス版ミシュランガイドにて三ツ星を獲得。</p>
             </div>
             <div class="section-profile">
               <div class="profile-label">（写真右）</div>
+              <div class="profile-position">Maison KEI Chef</div>
               <h3 class="profile-title"><span class="profileTitle-jp">佐藤充宜</span><span class="profileTitle-en">Mitsuyoshi Sato</span></h3>
               <p class="al-justify mt-non">三重県生まれ。2006年エコール 辻 大阪にて学び、2007年から「ヌキテパ」(東京)、2010年から「エディションコウジシモムラ」(東京)にて勤務。2011年に24歳で渡仏、地方のレストランなどを経て、2015年から「Restaurant KEI」にて勤務。このたび「Maison KEI」シェフに就任。 </p>
             </div>

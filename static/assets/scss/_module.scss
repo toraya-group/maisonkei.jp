@@ -116,6 +116,10 @@
     @include fs_profile_label;
     @include ff_en_helvetica;
   }
+  .profile-position{
+    @include fs_profile_label;
+    @include ff_jp_bold;
+  }
   .profileTitle-jp{
     padding-right: 1em;
     @include fs_h3;
