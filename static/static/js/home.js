@@ -27,22 +27,6 @@ $(function() {
       }
     }
 
-    if (isPcSize) {
-      var thisOffset;
-      thisOffset = $('.pc-nav-scrollup').offset().top + $('.pc-nav-scrollup').outerHeight();
-      if ($(window).scrollTop() + $(window).height() > thisOffset + 200) {
-        var value = $(this).scrollTop();
-        if (value > startPos && value > headerHeight) {
-          $header.css('top', '-' + headerHeight + 'px');
-        } else {
-          $header.css('top', '0');
-        }
-        startPos = value;
-      } else {
-        $header.css('top', '0');
-      }
-    }
-
   });
 });
 
