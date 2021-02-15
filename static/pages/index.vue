@@ -101,7 +101,7 @@
       </div>
     </section>
 
-    <section id="news" class="pc-nav-scrollup">
+    <section id="news">
       <div class="inner">
         <dl class="grid2">
           <dt class="grid2-side">
