@@ -13,14 +13,22 @@
           </dt>
           <dd class="grid2-main">
             <div class="news-detail">
-              <div class="newsDetail-date">2021.01.30</div>
-              <h1 class="newsDetail-title">臨時休業のお知らせ</h1>
-              <p>2月1日（月）は、臨時休業いたします。<br>
-              【定休日　毎週火曜日・水曜日】</p>
+              <div class="newsDetail-date">2021.02.21</div>
+              <h1 class="newsDetail-title">4月末まで満席のお知らせ</h1>
+              <p>現在、4月末までのご予約を承っている期間ではございますが、<br class="pc">
+              ランチ・ディナー共にご予約で満席となりました。<br>
+              キャンセル待ちのご希望は承りますが、お席確保のお約束ではございません。<br>
+              ご理解のほど、よろしくお願いいたします。</p>
+              <p>ご予約は、毎月1日に2か月後の末日までの分を承っております。<br>
+              5月1日（土）～31日（月）のご予約は、3月1日（木）より受付開始いたします。<br>
+              ご予約はお電話のみとなっております。</p>
+              <p>ご予約・お問合せ<br>
+              0550-81-2232<br>
+              （ご予約受付時間　営業日の10:00～11:30、15:00～17:30）</p>
             </div>
             <div class="page-nav">
-              <div class="pageNav-next"><a href="/news/202102/21/">4月末まで満席のお知らせ</a></div>
-              <!-- <div class="pageNav-prev"><a href="">ご予約方法のご案内</a></div> -->
+              <!-- <div class="pageNav-next"><a href="">2021年1月営業時間のご案内</a></div> -->
+              <div class="pageNav-prev"><a href="/news/202101/30/">臨時休業のお知らせ</a></div>
             </div>
             <div class="sp">
               <news-archive-nav />
