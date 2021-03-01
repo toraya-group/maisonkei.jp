@@ -53,16 +53,16 @@
       return {
         title: '4月末まで満席のお知らせ',
         meta: [
-          { hid: 'description', name: 'description', content: '2月1日（月）は、臨時休業いたします。' },
+          { hid: 'description', name: 'description', content: '4月末まで満席のお知らせ' },
           { property: 'og:url', content: 'https://www.maisonkei.jp/news/202101/30/' },
           { property: 'og:type', content: 'website' },
           { property: 'og:site_name', content: 'Maison KEI' },
-          { property: 'og:title', content: 'Maison KEI - 臨時休業のお知らせ' },
-          { property: 'og:description', content: '2月1日（月）は、臨時休業いたします。' },
+          { property: 'og:title', content: 'Maison KEI - 4月末まで満席のお知らせ' },
+          { property: 'og:description', content: '現在、4月末までのご予約を承っている期間ではございますが、ランチ・ディナー共にご予約で満席となりました。' },
           { property: 'og:image', content: 'https://www.maisonkei.jp/img/sns.jpg' },
           { name: 'twitter:card', content: 'summary_large_image' },
-          { name: 'twitter:title', content: 'Maison KEI - 臨時休業のお知らせ' },
-          { name: 'twitter:description', content: '2月1日（月）は、臨時休業いたします。' },
+          { name: 'twitter:title', content: 'Maison KEI - 4月末まで満席のお知らせ' },
+          { name: 'twitter:description', content: '現在、4月末までのご予約を承っている期間ではございますが、ランチ・ディナー共にご予約で満席となりました。' },
           { name: 'twitter:image:src', content: 'https://www.maisonkei.jp/img/sns.jpg' },
         ]
       }
