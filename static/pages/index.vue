@@ -170,7 +170,7 @@
             <h2 class="contents-title home-food-title">料理</h2>
           </dt>
           <dd class="grid2-main">
-            <figure class="home-kv __ng-margin">
+            <figure class="home-kv __margin-btm-adj">
               <img src="/img/home/food.jpg" alt="画像：料理">
             </figure>
             <div class="section-profile">

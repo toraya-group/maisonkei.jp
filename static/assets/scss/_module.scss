@@ -563,6 +563,12 @@
       margin: 0 0 60px;
     }
   }
+  &.__margin-btm-adj{
+    margin: 0 0 30px;
+    @include res('>', 768) {
+      margin: 0 0 60px;
+    }
+  }
 }
 
 .home-movie{
