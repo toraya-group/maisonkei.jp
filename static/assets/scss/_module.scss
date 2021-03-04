@@ -550,15 +550,37 @@
   }
 }
 
-.home-kv{
+.home-kv,
+.home-movie{
   margin-bottom: 54px;
+  vertical-align: bottom;
   @include res('>', 768) {
-    margin-bottom: 169px;
+    margin-bottom: 154px;
   }
   &.__ng-margin{
     margin: 0 -28px 30px;
     @include res('>', 768) {
       margin: 0 0 60px;
+    }
+  }
+}
+
+.home-movie{
+  @include res('>', 768) {
+    padding-top: 40%;
+    overflow: hidden;
+    position: relative;
+  }
+  video{
+    width: 100%;
+    height: auto;
+    @include res('>', 768) {
+      object-fit: cover;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
     }
   }
 }

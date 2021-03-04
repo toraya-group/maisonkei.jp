@@ -27,7 +27,52 @@ $(function() {
       }
     }
 
+    //ブラウザの表示域に表示されたときに実行する処理
+    if(isPcSize){
+      movie_play_area_pc($('.movie-pc'));
+    } else if(isMobileSize){
+      movie_play_area_sp($('.movie-sp'));
+    }
+
   });
+
+  // food movie pc
+  function movie_play_area_pc(target) {
+    // スクロール位置を取得
+    var scrollTop = $(window).scrollTop();
+    var scrollBtm = scrollTop + $(window).height();
+
+    // 対象要素の位置を取得
+    var targetTop = target.offset().top;
+    var targetBtm = targetTop + target.height();
+
+    // 画面内にある場合
+    if(scrollBtm > targetTop && scrollTop < targetBtm) {
+      $('.movie_pc').get(0).play();
+    } else {
+      $('.movie_pc').get(0).pause();
+    }
+  }
+
+  // food movie sp
+  function movie_play_area_sp(target) {
+    // スクロール位置を取得
+    var scrollTop = $(window).scrollTop();
+    var scrollBtm = scrollTop + $(window).height();
+
+    // 対象要素の位置を取得
+    var targetTop = target.offset().top;
+    var targetBtm = targetTop + target.height();
+
+    // 画面内にある場合
+    if(scrollBtm > targetTop && scrollTop < targetBtm) {
+      $('.movie-sp').get(0).play();
+    } else {
+      $('.movie-sp').get(0).pause();
+    }
+  }
+
+
 });
 
 

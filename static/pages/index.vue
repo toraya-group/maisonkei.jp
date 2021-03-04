@@ -137,7 +137,7 @@
     </section>
 
     <section>
-      <figure class="home-kv " id="story">
+      <figure class="home-kv" id="story">
         <img src="/img/home/story-pc.jpg" alt="画像：出会い" class="pc">
         <img src="/img/home/story-sp.jpg" alt="画像：出会い" class="sp">
       </figure>
@@ -159,7 +159,11 @@
       </div>
     </section>
 
-    <section id="food">
+    <section>
+      <div class="home-movie" id="food">
+        <video src="/img/home/story-video-pc.mp4" type="video/mp4" muted loop playsinline class="pc movie-pc"></video>
+        <video src="/img/home/story-video-sp.mp4" type="video/mp4" muted loop playsinline class="sp movie-sp"></video>
+      </div>
       <div class="inner">
         <dl class="grid2">
           <dt class="grid2-side">
