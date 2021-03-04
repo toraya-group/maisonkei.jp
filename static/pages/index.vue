@@ -24,11 +24,6 @@
           </div>
           <div class="swiper-slide">
             <div class="swiperSlider-inner">
-              <img src="/img/home/slider4-pc.jpg" alt="">
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiperSlider-inner">
               <img src="/img/home/slider5-pc.jpg" alt="">
             </div>
           </div>
@@ -63,11 +58,6 @@
           <div class="swiper-slide">
             <div class="swiperSlider-inner">
               <img src="/img/home/slider3-sp.jpg" alt="">
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiperSlider-inner">
-              <img src="/img/home/slider4-sp.jpg" alt="">
             </div>
           </div>
           <div class="swiper-slide">
