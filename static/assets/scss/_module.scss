@@ -572,21 +572,22 @@
 }
 
 .home-movie{
+  overflow: hidden;
+  position: relative;
+  padding-top: 150%;
   @include res('>', 768) {
     padding-top: 40%;
-    overflow: hidden;
-    position: relative;
   }
   video{
-    width: 100%;
+    position: absolute;
+    top: 0;
+    left: -10%;
+    width: 140%;
     height: auto;
     @include res('>', 768) {
-      object-fit: cover;
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      top: 0;
       left: 0;
+      width: 110%;
+      height: auto;
     }
   }
 }
