@@ -572,10 +572,14 @@
 }
 
 .home-movie{
+  margin-top: 20px;
+  margin-bottom: 74px;
+  padding-top: 150%;
   overflow: hidden;
   position: relative;
-  padding-top: 150%;
   @include res('>', 768) {
+    margin-top: 30px;
+    margin-bottom: 204px;
     padding-top: 40%;
   }
   video{
