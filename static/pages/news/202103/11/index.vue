@@ -13,7 +13,7 @@
           </dt>
           <dd class="grid2-main">
             <div class="news-detail">
-              <div class="newsDetail-date">2021.03.19</div>
+              <div class="newsDetail-date">2021.03.11</div>
               <h1 class="newsDetail-title">5月末まで満席のお知らせ</h1>
               <p>5月末までのご予約を承っている期間ではございますが、ランチ・ディナー共にご予約で満席となりました。<br>
               現在は、5月末までのキャンセル待ちをお伺いしております。<br>
@@ -52,7 +52,7 @@
         title: '5月末まで満席のお知らせ',
         meta: [
           { hid: 'description', name: 'description', content: '5月末まで満席のお知らせ' },
-          { property: 'og:url', content: 'https://www.maisonkei.jp/news/202103/19/' },
+          { property: 'og:url', content: 'https://www.maisonkei.jp/news/202103/11/' },
           { property: 'og:type', content: 'website' },
           { property: 'og:site_name', content: 'Maison KEI' },
           { property: 'og:title', content: 'Maison KEI - 5月末まで満席のお知らせ' },
