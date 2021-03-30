@@ -10,6 +10,7 @@ const _5d968676 = () => interopDefault(import('../pages/errors/404.vue' /* webpa
 const _50a8bf5c = () => interopDefault(import('../pages/news/202101/index.vue' /* webpackChunkName: "pages/news/202101/index" */))
 const _712b4306 = () => interopDefault(import('../pages/news/202101/30/index.vue' /* webpackChunkName: "pages/news/202101/30/index" */))
 const _8b2f8372 = () => interopDefault(import('../pages/news/202103/11/index.vue' /* webpackChunkName: "pages/news/202103/11/index" */))
+const _34e6d644 = () => interopDefault(import('../pages/news/202103/30/index.vue' /* webpackChunkName: "pages/news/202103/30/index" */))
 const _d388099e = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
@@ -52,6 +53,10 @@ export const routerOptions = {
     path: "/news/202103/11",
     component: _8b2f8372,
     name: "news-202103-11"
+  }, {
+    path: "/news/202103/30",
+    component: _34e6d644,
+    name: "news-202103-30"
   }, {
     path: "/",
     component: _d388099e,
