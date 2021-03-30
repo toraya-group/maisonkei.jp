@@ -51,11 +51,11 @@
           { property: 'og:type', content: 'website' },
           { property: 'og:site_name', content: 'Maison KEI' },
           { property: 'og:title', content: 'Maison KEI - 梅雨休みのお知らせ' },
-          { property: 'og:description', content: '5月末までのご予約を承っている期間ではございますが、ランチ・ディナー共にご予約で満席となりました。' },
+          { property: 'og:description', content: '誠に勝手ながら、Maison KEIでは下記の期間、梅雨休みを予定しております。' },
           { property: 'og:image', content: 'https://www.maisonkei.jp/img/sns.jpg' },
           { name: 'twitter:card', content: 'summary_large_image' },
           { name: 'twitter:title', content: 'Maison KEI - 梅雨休みのお知らせ' },
-          { name: 'twitter:description', content: '5月末までのご予約を承っている期間ではございますが、ランチ・ディナー共にご予約で満席となりました。' },
+          { name: 'twitter:description', content: '誠に勝手ながら、Maison KEIでは下記の期間、梅雨休みを予定しております。' },
           { name: 'twitter:image:src', content: 'https://www.maisonkei.jp/img/sns.jpg' },
         ]
       }
