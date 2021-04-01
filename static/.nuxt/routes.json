@@ -3,62 +3,59 @@
     "name": "news",
     "path": "/news",
     "component": "/Users/fuji/work/saito/maisonkei/static/pages/news/index.vue",
-    "chunkName": "pages/news/index",
-    "_name": "_3f43d1c7"
+    "chunkName": "pages/news/index"
   },
   {
     "name": "profile",
     "path": "/profile",
     "component": "/Users/fuji/work/saito/maisonkei/static/pages/profile/index.vue",
-    "chunkName": "pages/profile/index",
-    "_name": "_b979596a"
+    "chunkName": "pages/profile/index"
+  },
+  {
+    "name": "recruit",
+    "path": "/recruit",
+    "component": "/Users/fuji/work/saito/maisonkei/static/pages/recruit/index.vue",
+    "chunkName": "pages/recruit/index"
   },
   {
     "name": "errors-404",
     "path": "/errors/404",
     "component": "/Users/fuji/work/saito/maisonkei/static/pages/errors/404.vue",
-    "chunkName": "pages/errors/404",
-    "_name": "_5d968676"
+    "chunkName": "pages/errors/404"
   },
   {
     "name": "news-202101",
     "path": "/news/202101",
     "component": "/Users/fuji/work/saito/maisonkei/static/pages/news/202101/index.vue",
-    "chunkName": "pages/news/202101/index",
-    "_name": "_50a8bf5c"
+    "chunkName": "pages/news/202101/index"
   },
   {
     "name": "news-202101-30",
     "path": "/news/202101/30",
     "component": "/Users/fuji/work/saito/maisonkei/static/pages/news/202101/30/index.vue",
-    "chunkName": "pages/news/202101/30/index",
-    "_name": "_712b4306"
+    "chunkName": "pages/news/202101/30/index"
   },
   {
     "name": "news-202103-11",
     "path": "/news/202103/11",
     "component": "/Users/fuji/work/saito/maisonkei/static/pages/news/202103/11/index.vue",
-    "chunkName": "pages/news/202103/11/index",
-    "_name": "_8b2f8372"
+    "chunkName": "pages/news/202103/11/index"
   },
   {
     "name": "news-202103-30",
     "path": "/news/202103/30",
     "component": "/Users/fuji/work/saito/maisonkei/static/pages/news/202103/30/index.vue",
-    "chunkName": "pages/news/202103/30/index",
-    "_name": "_34e6d644"
+    "chunkName": "pages/news/202103/30/index"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/fuji/work/saito/maisonkei/static/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_d388099e"
+    "chunkName": "pages/index"
   },
   {
     "name": "custom",
     "path": "*",
-    "component": "/Users/fuji/work/saito/maisonkei/static/pages/errors/404.vue",
-    "_name": "_5d968676"
+    "component": "/Users/fuji/work/saito/maisonkei/static/pages/errors/404.vue"
   }
 ]

@@ -247,8 +247,8 @@
           <h2 class="section-title title-food"><span class="sectionTitle-jp">求人</span></h2>
           <p>Maison KEIでは<br>一緒に働くスタッフを<br>募集しております。</p>
           <div class="btn-wrap">
-            <a href="https://secure.careermap.jp/recruit/page_toraya_group" target="_blank" class="btn">
-              <span class="btn-inner">求人サイトへ</span>
+            <a href="recruit" class="btn">
+              <span class="btn-inner">採用情報へ</span>
             </a>
           </div>
         </div>
