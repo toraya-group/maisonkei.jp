@@ -186,13 +186,13 @@
               <h3 class="fs_home_h3">メニュー<span class="fs-small">（コース料理）</span></h3>
               <dl class="dl-table">
                 <dt>ランチ</dt>
-                <dd>3,500円（4皿）<br>6,800円（6皿）</dd>
+                <dd>3,850円（4皿）<br>7,480円（6皿）</dd>
               </dl>
               <dl class="dl-table">
                 <dt>ディナー</dt>
-                <dd>4,800円（4皿）<br>7,800円（6皿）</dd>
+                <dd>5,280円（4皿）<br>8,580円（6皿）</dd>
               </dl>
-              <p class="fs_home_caption">＊コースに飲み物、消費税、サービス料は含まれておりません</p>
+              <p class="fs_home_caption">＊コースに飲み物、サービス料は含まれておりません</p>
             </div>
           </dd>
         </dl>
