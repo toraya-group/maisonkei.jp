@@ -15,11 +15,11 @@
               <h2 class="recruit-title">募集要項</h2>
               <div class="recruit-block">
                 <h3 class="recruitBlock-title">仕事内容</h3>
-                <p>『MAISON KEI』は、パリのミシュランで初めて三ツ星を獲得した日本人シェフ・小林圭と、室町時代後期に創業した和菓子店『とらや』がタッグを組んで、新しく始めたフレンチレストランです。完全週休2日制で自分の時間を持ちながら、しっかりとスキルアップに取り組むことができる職場です。お客様が心から「美味しかった」と思えるお店作りに、一から参加してくださる方を募集しています！</p>
+                <p>『Maison KEI』は、パリのミシュランで初めて三ツ星を獲得した日本人シェフ・小林圭と、室町時代後期に創業した和菓子店『とらや』がタッグを組んで、新しく始めたフレンチレストランです。完全週休2日制で自分の時間を持ちながら、しっかりとスキルアップに取り組むことができる職場です。お客様が心から「美味しかった」と思えるお店作りに、一から参加してくださる方を募集しています！</p>
               </div>
               <div class="recruit-block">
                 <h3 class="recruitBlock-title">求める人物像</h3>
-                <ul>
+                <ul class="list-square">
                   <li>自ら考え、美味しさを追求する姿勢を持った方</li>
                   <li>レストランやホテルでの経験を活かしたい方</li>
                   <li>常にクリエイティブな発想をもって仕事に打ち込みたい方</li>
@@ -48,7 +48,7 @@
               </div>
               <div class="recruit-block">
                 <h3 class="recruitBlock-title">応募資格</h3>
-                <ul>
+                <ul class="list-square">
                   <li>実務経験者優遇</li>
                   <li>日本語でコミュニケーションが取れる方</li>
                   <li>JSA・ANSAソムリエ有資格者優遇</li>
@@ -74,7 +74,7 @@
                   <dt>アルバイト</dt>
                   <dd>
                     <ul>
-                      <li>サービス　 <br class="sp">10:00~15:00<br class="sp">17:00~21:00</li>
+                      <li>サービス　 <br class="sp">10:00~15:00、<br class="sp">17:00~21:00</li>
                     </ul>
                     <span class="caption">＊2021年4月より変形労働時間制導入見込み</span>
                   </dd>
@@ -122,7 +122,7 @@
               </div>
               <div class="recruit-block">
                 <h3 class="recruitBlock-title">応募書類 (書式自由)</h3>
-                <ul>
+                <ul class="list-square">
                   <li>履歴書</li>
                   <li>職務経歴書</li>
                 </ul>

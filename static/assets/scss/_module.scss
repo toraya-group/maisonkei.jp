@@ -484,9 +484,9 @@
   .section-recruit{
     .recruit-title{
       margin-bottom: 40px;
+      @include fs_recruit_title;
       @include res('>', 768) {
         margin-bottom: 79px;
-        font-size: 21px;
       }
     }
     .recruit-block{
@@ -495,7 +495,7 @@
         margin-bottom: 58px;
       }
       .recruitBlock-title{
-        font-size: 15px;
+        @include fs_recruitBlock_title;
         margin-bottom: 14px;
         @include res('>', 768) {
           margin-bottom: 23px;
