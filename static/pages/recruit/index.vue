@@ -60,7 +60,10 @@
               </div>
               <div class="recruit-block">
                 <h3 class="recruitBlock-title">勤務地</h3>
-                <p>下記の時間帯の中で8時間</p>
+                <p>Maison KEI<br>412-0024　静岡県御殿場市東山527-1</p>
+              </div>
+              <div class="recruit-block">
+                <h3 class="recruitBlock-title">勤務時間</h3>
                 <dl class="dl-table __mar-adj">
                   <dt>正社員</dt>
                   <dd>
@@ -68,6 +71,7 @@
                       <li>キュイジニエ　<br class="sp">7:30~22:00</li>
                       <li>サービス　　　<br class="sp">9:00~22:00</li>
                     </ul>
+                    <span class="caption">＊変形労働時間制</span>
                   </dd>
                 </dl>
                 <dl class="dl-table">
@@ -76,7 +80,6 @@
                     <ul>
                       <li>サービス　 <br class="sp">10:00~15:00、<br class="sp">17:00~21:00</li>
                     </ul>
-                    <span class="caption">＊2021年4月より変形労働時間制導入見込み</span>
                   </dd>
                 </dl>
               </div>
