@@ -20,8 +20,8 @@
               みなさまにはご不便をおかけいたしますが、何卒よろしくお願いいたします。</p>
             </div>
             <div class="page-nav">
-              <!-- <div class="pageNav-next"><a href="">2021年1月営業時間のご案内</a></div> -->
-              <div class="pageNav-prev"><a href="/news/202103/11/">5月末まで満席のお知らせ</a></div>
+              <div class="pageNav-next"><a href="/news/202104/07/">6月末まで満席のお知らせ</a></div>
+              <div class="pageNav-prev"><a href="/news/202101/30/">臨時休業のお知らせ</a></div>
             </div>
             <div class="sp">
               <news-archive-nav />

@@ -19,7 +19,7 @@
               【定休日　毎週火曜日・水曜日】</p>
             </div>
             <div class="page-nav">
-              <div class="pageNav-next"><a href="/news/202103/11/">5月末まで満席のお知らせ</a></div>
+              <div class="pageNav-next"><a href="/news/202103/30/">梅雨休みのお知らせ</a></div>
               <!-- <div class="pageNav-prev"><a href="">ご予約方法のご案内</a></div> -->
             </div>
             <div class="sp">
