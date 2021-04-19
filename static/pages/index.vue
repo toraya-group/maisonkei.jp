@@ -101,10 +101,18 @@
             <div class="news-index __border-non">
               <ul class="newsIndex-ul">
                 <li>
-                  <a href="/news/202102/21/" class="newsIndex-block">
+                  <a href="/news/202104/07/" class="newsIndex-block">
                     <span class="newsIndexBlock-txt">
-                      <span class="newsIndexBlockTxt-date">2021.02.21</span>
-                      <h2 class="newsIndexBlockTxt-title">4月末まで満席のお知らせ</h2>
+                      <span class="newsIndexBlockTxt-date">2021.04.07</span>
+                      <h2 class="newsIndexBlockTxt-title">6月末まで満席のお知らせ</h2>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/news/202103/30/" class="newsIndex-block">
+                    <span class="newsIndexBlock-txt">
+                      <span class="newsIndexBlockTxt-date">2021.03.30</span>
+                      <h2 class="newsIndexBlockTxt-title">梅雨休みのお知らせ</h2>
                     </span>
                   </a>
                 </li>
@@ -172,13 +180,13 @@
               <h3 class="fs_home_h3">メニュー<span class="fs-small">（コース料理）</span></h3>
               <dl class="dl-table">
                 <dt>ランチ</dt>
-                <dd>3,500円（4皿）<br>6,800円（6皿）</dd>
+                <dd>3,850円（4皿）<br>7,480円（6皿）</dd>
               </dl>
               <dl class="dl-table">
                 <dt>ディナー</dt>
-                <dd>4,800円（4皿）<br>7,800円（6皿）</dd>
+                <dd>5,280円（4皿）<br>8,580円（6皿）</dd>
               </dl>
-              <p class="fs_home_caption">＊コースに飲み物、消費税、サービス料は含まれておりません</p>
+              <p class="fs_home_caption">＊コースに飲み物、サービス料は含まれておりません</p>
             </div>
           </dd>
         </dl>
@@ -233,8 +241,8 @@
           <h2 class="section-title title-food"><span class="sectionTitle-jp">求人</span></h2>
           <p>Maison KEIでは<br>一緒に働くスタッフを<br>募集しております。</p>
           <div class="btn-wrap">
-            <a href="https://secure.careermap.jp/recruit/page_toraya_group" target="_blank" class="btn">
-              <span class="btn-inner">求人サイトへ</span>
+            <a href="recruit" class="btn">
+              <span class="btn-inner">採用情報へ</span>
             </a>
           </div>
         </div>

@@ -13,14 +13,15 @@
           </dt>
           <dd class="grid2-main">
             <div class="news-detail">
-              <div class="newsDetail-date">2021.01.30</div>
-              <h1 class="newsDetail-title">臨時休業のお知らせ</h1>
-              <p>2月1日（月）は、臨時休業いたします。<br>
-              【定休日　毎週火曜日・水曜日】</p>
+              <div class="newsDetail-date">2021.03.30</div>
+              <h1 class="newsDetail-title">梅雨休みのお知らせ</h1>
+              <p>誠に勝手ながら、Maison KEIでは下記の期間、梅雨休みを予定しております。<br>
+              　6月28日（月）～7月7日（水）<br>
+              みなさまにはご不便をおかけいたしますが、何卒よろしくお願いいたします。</p>
             </div>
             <div class="page-nav">
-              <div class="pageNav-next"><a href="/news/202103/30/">梅雨休みのお知らせ</a></div>
-              <!-- <div class="pageNav-prev"><a href="">ご予約方法のご案内</a></div> -->
+              <div class="pageNav-next"><a href="/news/202104/07/">6月末まで満席のお知らせ</a></div>
+              <div class="pageNav-prev"><a href="/news/202101/30/">臨時休業のお知らせ</a></div>
             </div>
             <div class="sp">
               <news-archive-nav />
@@ -43,18 +44,18 @@
   export default {
     head() {
       return {
-        title: '臨時休業のお知らせ',
+        title: '梅雨休みのお知らせ',
         meta: [
-          { hid: 'description', name: 'description', content: '2月1日（月）は、臨時休業いたします。' },
-          { property: 'og:url', content: 'https://www.maisonkei.jp/news/202101/30/' },
+          { hid: 'description', name: 'description', content: '梅雨休みのお知らせ' },
+          { property: 'og:url', content: 'https://www.maisonkei.jp/news/202103/30/' },
           { property: 'og:type', content: 'website' },
           { property: 'og:site_name', content: 'Maison KEI' },
-          { property: 'og:title', content: 'Maison KEI - 臨時休業のお知らせ' },
-          { property: 'og:description', content: '2月1日（月）は、臨時休業いたします。' },
+          { property: 'og:title', content: 'Maison KEI - 梅雨休みのお知らせ' },
+          { property: 'og:description', content: '誠に勝手ながら、Maison KEIでは下記の期間、梅雨休みを予定しております。' },
           { property: 'og:image', content: 'https://www.maisonkei.jp/img/sns.jpg' },
           { name: 'twitter:card', content: 'summary_large_image' },
-          { name: 'twitter:title', content: 'Maison KEI - 臨時休業のお知らせ' },
-          { name: 'twitter:description', content: '2月1日（月）は、臨時休業いたします。' },
+          { name: 'twitter:title', content: 'Maison KEI - 梅雨休みのお知らせ' },
+          { name: 'twitter:description', content: '誠に勝手ながら、Maison KEIでは下記の期間、梅雨休みを予定しております。' },
           { name: 'twitter:image:src', content: 'https://www.maisonkei.jp/img/sns.jpg' },
         ]
       }

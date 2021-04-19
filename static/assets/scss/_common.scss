@@ -129,6 +129,12 @@ ol{
   margin-left: 1.5em;
 }
 
+ul{
+  &.list-square{
+    list-style-type: square;
+  }
+}
+
 dl{
   margin-top: 0;
 }

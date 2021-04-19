@@ -217,3 +217,16 @@
   font-size: 16px;
   line-height: 225%;
 }
+
+@mixin fs_recruitBlock_title {
+  font-size: 15px;
+  @include res('>', 768) {
+    font-size: 16px;
+  }
+}
+
+@mixin fs_recruit_title {
+  @include res('>', 768) {
+    font-size: 21px;
+  }
+}
