@@ -159,8 +159,8 @@
 
     <section>
       <div class="home-movie" id="food">
-        <video src="/img/home/story-video-pc.mp4?20210419" type="video/mp4" muted loop playsinline class="pc movie-pc"></video>
-        <video src="/img/home/story-video-sp.mp4?20210419" type="video/mp4" muted loop playsinline class="sp movie-sp"></video>
+        <video src="/img/home/story-video-pc.mp4?202104191" type="video/mp4" muted loop playsinline class="pc movie-pc"></video>
+        <video src="/img/home/story-video-sp.mp4?202104191" type="video/mp4" muted loop playsinline class="sp movie-sp"></video>
       </div>
       <div class="inner">
         <dl class="grid2">
