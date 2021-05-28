@@ -20,7 +20,7 @@
               みなさまにはご不便をおかけいたしますが、何卒よろしくお願いいたします。</p>
             </div>
             <div class="page-nav">
-              <div class="pageNav-next"><a href="/news/202104/07/">6月末まで満席のお知らせ</a></div>
+              <div class="pageNav-next"><!-- <a href="/news/202104/07/">6月末まで満席のお知らせ</a> --></div>
               <div class="pageNav-prev"><a href="/news/202101/30/">臨時休業のお知らせ</a></div>
             </div>
             <div class="sp">
