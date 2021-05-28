@@ -94,7 +94,7 @@
         <h1 class="home-logo"><span class="none">Maison KEI</span></h1>
         <div class="home-lead">
           <p>Maison KEIは、パリのフレンチレストラン「Restaurant KEI」と<br class="pc">和菓子屋「とらや」がはじめるフレンチレストランです。</p>
-          <p>パリや東京の喧騒から離れ、気軽に、少しゆったりと、<br class="pc">私たちの料理や菓子をお召し上がりいただきたいとの想いから、<br class="pc">食材と水の豊かな御殿場市東山に店を構えます。
+          <p>パリや東京の喧騒から離れ、気軽に、少しゆったりと、<br class="pc">私たちの料理や菓子をお召し上がりいただきたいとの想いから、<br class="pc">食材と水の豊かな御殿場市東山に店を構えました。
           </p>
           <p>富士山を望むこの地で、小林 圭氏が創造する料理をお楽しみください。</p>
         </div>
@@ -186,11 +186,11 @@
               <h3 class="fs_home_h3">メニュー<span class="fs-small">（コース料理）</span></h3>
               <dl class="dl-table">
                 <dt>ランチ</dt>
-                <dd>3,850円（4皿）<br>7,480円（6皿）</dd>
+                <dd>4,500円（4皿）<br>8,500円（6皿）</dd>
               </dl>
               <dl class="dl-table">
                 <dt>ディナー</dt>
-                <dd>5,280円（4皿）<br>8,580円（6皿）</dd>
+                <dd>5,500円（4皿）<br>9,000円（6皿）</dd>
               </dl>
               <p class="fs_home_caption">＊コースに飲み物、サービス料は含まれておりません</p>
             </div>
