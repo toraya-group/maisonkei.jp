@@ -228,8 +228,7 @@
                 ランチ　　　11:30〜<br>
                 ディナー　　17:30〜</p>
               <p>■ 定休日<br>
-                火曜日・水曜日<br>
-                <span class="fs_home_caption">＊ 2月1日（月）は臨時休業</span>
+                火曜日・水曜日
               </p>
               <p class="jp-serif">■ 店舗情報<br>
                 〒412-0024<br>
