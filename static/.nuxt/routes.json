@@ -63,6 +63,13 @@
     "_name": "_11f0930d"
   },
   {
+    "name": "news-202106-14",
+    "path": "/news/202106/14",
+    "component": "/Users/fuji/work/saito/maisonkei/static/pages/news/202106/14/index.vue",
+    "chunkName": "pages/news/202106/14/index",
+    "_name": "_1eafb367"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/fuji/work/saito/maisonkei/static/pages/index.vue",
