@@ -111,6 +111,14 @@
             <div class="news-index __border-non">
               <ul class="newsIndex-ul">
                 <li>
+                  <a href="/news/202106/14/" class="newsIndex-block">
+                    <span class="newsIndexBlock-txt">
+                      <span class="newsIndexBlockTxt-date">2021.06.14</span>
+                      <h2 class="newsIndexBlockTxt-title">9月のご予約開始について</h2>
+                    </span>
+                  </a>
+                </li>
+                <li>
                   <a href="/news/202103/30/" class="newsIndex-block">
                     <span class="newsIndexBlock-txt">
                       <span class="newsIndexBlockTxt-date">2021.03.30</span>
