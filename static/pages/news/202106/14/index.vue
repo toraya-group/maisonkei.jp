@@ -15,7 +15,7 @@
             <div class="news-detail">
               <div class="newsDetail-date">2021.06.14</div>
               <h1 class="newsDetail-title">9月のご予約開始について</h1>
-              <p>誠に勝手ながら、Maison　KEIでは6月28日（月）～7月7日（水）の期間、梅雨休みを予定しております。<br>
+              <p>誠に勝手ながら、Maison KEIでは6月28日（月）～7月7日（水）の期間、梅雨休みを予定しております。<br>
 9月のご予約につきましては、7月8日（木）より受付開始いたします。<br>
 みなさまにはご不便をおかけいたしますが、何卒よろしくお願いいたします。</p>
             </div>
@@ -51,11 +51,11 @@
           { property: 'og:type', content: 'website' },
           { property: 'og:site_name', content: 'Maison KEI' },
           { property: 'og:title', content: 'Maison KEI - 9月のご予約開始について' },
-          { property: 'og:description', content: '誠に勝手ながら、Maison　KEIでは6月28日（月）～7月7日（水）の期間、梅雨休みを予定しております。' },
+          { property: 'og:description', content: '誠に勝手ながら、Maison KEIでは6月28日（月）～7月7日（水）の期間、梅雨休みを予定しております。' },
           { property: 'og:image', content: 'https://www.maisonkei.jp/img/sns.jpg' },
           { name: 'twitter:card', content: 'summary_large_image' },
           { name: 'twitter:title', content: 'Maison KEI - 9月のご予約開始について' },
-          { name: 'twitter:description', content: '誠に勝手ながら、Maison　KEIでは6月28日（月）～7月7日（水）の期間、梅雨休みを予定しております。' },
+          { name: 'twitter:description', content: '誠に勝手ながら、Maison KEIでは6月28日（月）～7月7日（水）の期間、梅雨休みを予定しております。' },
           { name: 'twitter:image:src', content: 'https://www.maisonkei.jp/img/sns.jpg' },
         ]
       }
