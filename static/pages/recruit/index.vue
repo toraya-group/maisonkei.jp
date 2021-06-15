@@ -93,9 +93,7 @@
                   <dt>正社員</dt>
                   <dd>
                     基本給16万5600円~<br>
-                    <span class="caption">＊ご経験により応相談</span>
-                  </dd>
-                  <dd>
+                    <span class="caption">＊ご経験により応相談</span><br>
                     【23歳モデル給】<br>
                     月額255,318円 基本給+超勤代+手当（資格+住宅）<br>
                     <span class="caption">＊他に賞与あり</span>
