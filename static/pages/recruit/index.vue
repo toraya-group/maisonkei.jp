@@ -95,6 +95,11 @@
                     基本給16万5600円~<br>
                     <span class="caption">＊ご経験により応相談</span>
                   </dd>
+                  <dd>
+                    【23歳モデル給】<br>
+                    月額255,318円 基本給+超勤代+手当（資格+住宅）<br>
+                    <span class="caption">＊他に賞与あり</span>
+                  </dd>
                 </dl>
                 <dl class="dl-table">
                   <dt>アルバイト</dt>
