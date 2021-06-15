@@ -24,11 +24,6 @@
           </div>
           <div class="swiper-slide">
             <div class="swiperSlider-inner">
-              <img src="/img/home/slider4-pc.jpg" alt="">
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiperSlider-inner">
               <img src="/img/home/slider5-pc.jpg" alt="">
             </div>
           </div>
@@ -63,11 +58,6 @@
           <div class="swiper-slide">
             <div class="swiperSlider-inner">
               <img src="/img/home/slider3-sp.jpg" alt="">
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiperSlider-inner">
-              <img src="/img/home/slider4-sp.jpg" alt="">
             </div>
           </div>
           <div class="swiper-slide">
@@ -145,7 +135,7 @@
     </section>
 
     <section>
-      <figure class="home-kv " id="story">
+      <figure class="home-kv" id="story">
         <img src="/img/home/story-pc.jpg" alt="画像：出会い" class="pc">
         <img src="/img/home/story-sp.jpg" alt="画像：出会い" class="sp">
       </figure>
@@ -167,14 +157,18 @@
       </div>
     </section>
 
-    <section id="food">
+    <section>
+      <div class="home-movie" id="food">
+        <video src="/img/home/story-video-pc.mp4?20210420" type="video/mp4" muted loop playsinline class="pc movie-pc"></video>
+        <video src="/img/home/story-video-sp.mp4?20210420" type="video/mp4" muted loop playsinline class="sp movie-sp"></video>
+      </div>
       <div class="inner">
         <dl class="grid2">
           <dt class="grid2-side">
             <h2 class="contents-title home-food-title">料理</h2>
           </dt>
           <dd class="grid2-main">
-            <figure class="home-kv __ng-margin">
+            <figure class="home-kv __margin-btm-adj">
               <img src="/img/home/food.jpg" alt="画像：料理">
             </figure>
             <div class="section-profile">

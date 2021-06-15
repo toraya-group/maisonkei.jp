@@ -613,15 +613,48 @@
   }
 }
 
-.home-kv{
+.home-kv,
+.home-movie{
   margin-bottom: 54px;
+  vertical-align: bottom;
   @include res('>', 768) {
-    margin-bottom: 169px;
+    margin-bottom: 154px;
   }
   &.__ng-margin{
     margin: 0 -28px 30px;
     @include res('>', 768) {
       margin: 0 0 60px;
+    }
+  }
+  &.__margin-btm-adj{
+    margin: 0 0 30px;
+    @include res('>', 768) {
+      margin: 0 0 60px;
+    }
+  }
+}
+
+.home-movie{
+  margin-top: 20px;
+  margin-bottom: 74px;
+  padding-top: 150%;
+  overflow: hidden;
+  position: relative;
+  @include res('>', 768) {
+    margin-top: 30px;
+    margin-bottom: 204px;
+    padding-top: 40%;
+  }
+  video{
+    position: absolute;
+    top: 0;
+    left: -10%;
+    width: 140%;
+    height: auto;
+    @include res('>', 768) {
+      left: 0;
+      width: 110%;
+      height: auto;
     }
   }
 }
